@@ -1,0 +1,240 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\code\\csharp\\movie_on_demand\\movie_on_demand\\movie_on_demand\\movie_on_demand.csproj": {}
+  },
+  "projects": {
+    "D:\\code\\csharp\\movie_on_demand\\movie_on_demand\\DateTimeUtils\\DateTimeUtils.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\code\\csharp\\movie_on_demand\\movie_on_demand\\DateTimeUtils\\DateTimeUtils.csproj",
+        "projectName": "DateTimeUtils",
+        "projectPath": "D:\\code\\csharp\\movie_on_demand\\movie_on_demand\\DateTimeUtils\\DateTimeUtils.csproj",
+        "packagesPath": "C:\\Users\\17562\\.nuget\\packages\\",
+        "outputPath": "D:\\code\\csharp\\movie_on_demand\\movie_on_demand\\DateTimeUtils\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\program files\\visual studio\\shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\17562\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\code\\csharp\\movie_on_demand\\movie_on_demand\\Encoder\\Encoder.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\code\\csharp\\movie_on_demand\\movie_on_demand\\Encoder\\Encoder.csproj",
+        "projectName": "Encoder",
+        "projectPath": "D:\\code\\csharp\\movie_on_demand\\movie_on_demand\\Encoder\\Encoder.csproj",
+        "packagesPath": "C:\\Users\\17562\\.nuget\\packages\\",
+        "outputPath": "D:\\code\\csharp\\movie_on_demand\\movie_on_demand\\Encoder\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\program files\\visual studio\\shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\17562\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\code\\csharp\\movie_on_demand\\movie_on_demand\\movie_on_demand\\movie_on_demand.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\code\\csharp\\movie_on_demand\\movie_on_demand\\movie_on_demand\\movie_on_demand.csproj",
+        "projectName": "movie_on_demand",
+        "projectPath": "D:\\code\\csharp\\movie_on_demand\\movie_on_demand\\movie_on_demand\\movie_on_demand.csproj",
+        "packagesPath": "C:\\Users\\17562\\.nuget\\packages\\",
+        "outputPath": "D:\\code\\csharp\\movie_on_demand\\movie_on_demand\\movie_on_demand\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\program files\\visual studio\\shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\17562\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\code\\csharp\\movie_on_demand\\movie_on_demand\\DateTimeUtils\\DateTimeUtils.csproj": {
+                "projectPath": "D:\\code\\csharp\\movie_on_demand\\movie_on_demand\\DateTimeUtils\\DateTimeUtils.csproj"
+              },
+              "D:\\code\\csharp\\movie_on_demand\\movie_on_demand\\Encoder\\Encoder.csproj": {
+                "projectPath": "D:\\code\\csharp\\movie_on_demand\\movie_on_demand\\Encoder\\Encoder.csproj"
+              },
+              "D:\\code\\csharp\\movie_on_demand\\movie_on_demand\\Round\\Round\\Round.vcxproj": {
+                "projectPath": "D:\\code\\csharp\\movie_on_demand\\movie_on_demand\\Round\\Round\\Round.vcxproj"
+              },
+              "D:\\code\\csharp\\movie_on_demand\\movie_on_demand\\Win32DLL\\Win32DLL.vcxproj": {
+                "projectPath": "D:\\code\\csharp\\movie_on_demand\\movie_on_demand\\Win32DLL\\Win32DLL.vcxproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Cors": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.0-preview.4.21274.1, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.25, )"
+            },
+            "MySql.Data.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.22, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\code\\csharp\\movie_on_demand\\movie_on_demand\\Round\\Round\\Round.vcxproj": {
+      "restore": {
+        "projectUniqueName": "D:\\code\\csharp\\movie_on_demand\\movie_on_demand\\Round\\Round\\Round.vcxproj",
+        "projectName": "Round",
+        "projectPath": "D:\\code\\csharp\\movie_on_demand\\movie_on_demand\\Round\\Round\\Round.vcxproj"
+      },
+      "frameworks": {
+        "net40": {}
+      }
+    },
+    "D:\\code\\csharp\\movie_on_demand\\movie_on_demand\\Win32DLL\\Win32DLL.vcxproj": {
+      "restore": {
+        "projectUniqueName": "D:\\code\\csharp\\movie_on_demand\\movie_on_demand\\Win32DLL\\Win32DLL.vcxproj",
+        "projectName": "Win32DLL",
+        "projectPath": "D:\\code\\csharp\\movie_on_demand\\movie_on_demand\\Win32DLL\\Win32DLL.vcxproj"
+      },
+      "frameworks": {
+        "net40": {}
+      }
+    }
+  }
+}

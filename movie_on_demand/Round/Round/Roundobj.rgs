@@ -1,0 +1,16 @@
+HKCR
+{
+	NoRemove CLSID
+	{
+		ForceRemove {987c5b88-4ab0-4ebe-b689-e249d0f196b4} = s 'Roundobj class'
+		{
+			ForceRemove Programmable
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			TypeLib = s '{971ba990-6ff5-4db9-9f59-1b61a2c3fe4b}'
+			Version = s '1.0'
+		}
+	}
+}

@@ -1,0 +1,12 @@
+D:\code\csharp\movie_on_demand\movie_on_demand\DateTimeUtils\bin\Release\net5.0\DateTimeUtils.deps.json
+D:\code\csharp\movie_on_demand\movie_on_demand\DateTimeUtils\bin\Release\net5.0\DateTimeUtils.dll
+D:\code\csharp\movie_on_demand\movie_on_demand\DateTimeUtils\bin\Release\net5.0\ref\DateTimeUtils.dll
+D:\code\csharp\movie_on_demand\movie_on_demand\DateTimeUtils\bin\Release\net5.0\DateTimeUtils.pdb
+D:\code\csharp\movie_on_demand\movie_on_demand\DateTimeUtils\obj\Release\net5.0\DateTimeUtils.csprojAssemblyReference.cache
+D:\code\csharp\movie_on_demand\movie_on_demand\DateTimeUtils\obj\Release\net5.0\DateTimeUtils.GeneratedMSBuildEditorConfig.editorconfig
+D:\code\csharp\movie_on_demand\movie_on_demand\DateTimeUtils\obj\Release\net5.0\DateTimeUtils.AssemblyInfoInputs.cache
+D:\code\csharp\movie_on_demand\movie_on_demand\DateTimeUtils\obj\Release\net5.0\DateTimeUtils.AssemblyInfo.cs
+D:\code\csharp\movie_on_demand\movie_on_demand\DateTimeUtils\obj\Release\net5.0\DateTimeUtils.csproj.CoreCompileInputs.cache
+D:\code\csharp\movie_on_demand\movie_on_demand\DateTimeUtils\obj\Release\net5.0\DateTimeUtils.dll
+D:\code\csharp\movie_on_demand\movie_on_demand\DateTimeUtils\obj\Release\net5.0\ref\DateTimeUtils.dll
+D:\code\csharp\movie_on_demand\movie_on_demand\DateTimeUtils\obj\Release\net5.0\DateTimeUtils.pdb

@@ -1,0 +1,79 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly Microsoft.Extensions.ObjectPool, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60: 
+	hash=SHA1, flags=PublicKey
+Assembly netstandard, Version=2.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51: 
+	hash=None, flags=None
+Class Microsoft.Extensions.ObjectPool.DefaultObjectPool`1[T]: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  Type parameter: T,  ReferenceType
+  :Microsoft.Extensions.ObjectPool.ObjectPool`1[T]
+    Void .ctor(Microsoft.Extensions.ObjectPool.IPooledObjectPolicy`1[T]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.Extensions.ObjectPool.IPooledObjectPolicy`1[T], Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Get(): PrivateScope, Public, Virtual, HideBySig
+    Return(T): PrivateScope, Public, Virtual, HideBySig
+Class Microsoft.Extensions.ObjectPool.DefaultObjectPoolProvider: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :Microsoft.Extensions.ObjectPool.ObjectPoolProvider
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Int32 MaximumRetained 'get set' : 
+  Methods:
+    get_MaximumRetained(): PrivateScope, Public, HideBySig, SpecialName
+    set_MaximumRetained(Int32): PrivateScope, Public, HideBySig, SpecialName
+    Create(IPooledObjectPolicy`1): PrivateScope, Public, Virtual, HideBySig
+Class Microsoft.Extensions.ObjectPool.DefaultPooledObjectPolicy`1[T]: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  Type parameter: T,  ReferenceType DefaultConstructor
+  :Microsoft.Extensions.ObjectPool.PooledObjectPolicy`1[T]
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Create(): PrivateScope, Public, Virtual, HideBySig
+    Return(T): PrivateScope, Public, Virtual, HideBySig
+Interface Microsoft.Extensions.ObjectPool.IPooledObjectPolicy`1[T]: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Type parameter: T
+  Methods:
+    Create(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Return(T): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Class Microsoft.Extensions.ObjectPool.LeakTrackingObjectPool`1[T]: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  Type parameter: T,  ReferenceType
+  :Microsoft.Extensions.ObjectPool.ObjectPool`1[T]
+    Void .ctor(Microsoft.Extensions.ObjectPool.ObjectPool`1[T]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Get(): PrivateScope, Public, Virtual, HideBySig
+    Return(T): PrivateScope, Public, Virtual, HideBySig
+Class Microsoft.Extensions.ObjectPool.LeakTrackingObjectPoolProvider: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :Microsoft.Extensions.ObjectPool.ObjectPoolProvider
+    Void .ctor(Microsoft.Extensions.ObjectPool.ObjectPoolProvider): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Create(IPooledObjectPolicy`1): PrivateScope, Public, Virtual, HideBySig
+Class Microsoft.Extensions.ObjectPool.ObjectPool`1[T]: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+  Type parameter: T,  ReferenceType
+  Methods:
+    Get(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Return(T): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Class Microsoft.Extensions.ObjectPool.ObjectPoolProvider: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+  Methods:
+    Create(): PrivateScope, Public, HideBySig
+    Create(IPooledObjectPolicy`1): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Class Microsoft.Extensions.ObjectPool.ObjectPoolProviderExtensions: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Methods:
+    CreateStringBuilderPool(ObjectPoolProvider): PrivateScope, Public, Static, HideBySig
+    CreateStringBuilderPool(ObjectPoolProvider, Int32, Int32): PrivateScope, Public, Static, HideBySig
+Class Microsoft.Extensions.ObjectPool.PooledObjectPolicy`1[T]: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+  Type parameter: T
+  Interfaces:
+    Microsoft.Extensions.ObjectPool.IPooledObjectPolicy`1[T]
+  Methods:
+    Create(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Return(T): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Class Microsoft.Extensions.ObjectPool.StringBuilderPooledObjectPolicy: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :Microsoft.Extensions.ObjectPool.PooledObjectPolicy`1[System.Text.StringBuilder]
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Int32 InitialCapacity 'get set' : 
+    Int32 MaximumRetainedCapacity 'get set' : 
+  Methods:
+    get_InitialCapacity(): PrivateScope, Public, HideBySig, SpecialName
+    set_InitialCapacity(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_MaximumRetainedCapacity(): PrivateScope, Public, HideBySig, SpecialName
+    set_MaximumRetainedCapacity(Int32): PrivateScope, Public, HideBySig, SpecialName
+    Create(): PrivateScope, Public, Virtual, HideBySig
+    Return(StringBuilder): PrivateScope, Public, Virtual, HideBySig

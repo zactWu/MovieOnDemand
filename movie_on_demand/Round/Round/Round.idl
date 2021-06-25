@@ -1,0 +1,37 @@
+﻿// Round.idl: Round 的 IDL 源
+//
+
+// 此文件将由 MIDL 工具处理以
+// 生成类型库(Round.tlb)和封送处理代码。
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	object,
+	uuid(1b8a2dff-7a75-45db-84e0-29eadad0cb92),
+	dual,
+	nonextensible,
+	pointer_default(unique)
+]
+interface IRoundobj : IDispatch
+{
+	[id(1)] HRESULT ERound([in]double, [out]double*);
+};
+[
+	uuid(971ba990-6ff5-4db9-9f59-1b61a2c3fe4b),
+	version(1.0),
+]
+library RoundLib
+{
+	importlib("stdole2.tlb");
+	[
+		uuid(987c5b88-4ab0-4ebe-b689-e249d0f196b4)
+	]
+	coclass Roundobj
+	{
+		[default] interface IRoundobj;
+	};
+};
+
+import "shobjidl.idl";

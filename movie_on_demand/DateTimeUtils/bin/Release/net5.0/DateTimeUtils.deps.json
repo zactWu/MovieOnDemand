@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "DateTimeUtils/1.0.0": {
+        "runtime": {
+          "DateTimeUtils.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DateTimeUtils/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

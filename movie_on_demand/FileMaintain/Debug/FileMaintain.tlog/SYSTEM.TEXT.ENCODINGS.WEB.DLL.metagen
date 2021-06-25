@@ -1,0 +1,469 @@
+  System.Text.Encodings.Web.Resources.unicode8definedcharacters.bin - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly System.Text.Encodings.Web, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51: 
+	hash=SHA1, flags=PublicKey
+Assembly netstandard, Version=2.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51: 
+	hash=None, flags=None
+Class Microsoft.CodeAnalysis.EmbeddedAttribute: AutoLayout, AnsiClass, Class, Sealed, BeforeFieldInit
+  :System.Attribute
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class System.Runtime.CompilerServices.IsReadOnlyAttribute: AutoLayout, AnsiClass, Class, Sealed, BeforeFieldInit
+  :System.Attribute
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class System.BufferInternal: AutoLayout, AnsiClass, Class, Abstract, Sealed, BeforeFieldInit
+  Methods:
+    MemoryCopy(Void*, Void*, Int32, Int32): PrivateScope, Public, Static, HideBySig
+Class System.Runtime.CompilerServices.__BlockReflectionAttribute: AutoLayout, AnsiClass, Class, BeforeFieldInit
+  :System.Attribute
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class System.Text.Unicode.UnicodeHelpers: AutoLayout, AnsiClass, Class, Abstract, Sealed, BeforeFieldInit
+  Fields:
+    Int32 UNICODE_LAST_CODEPOINT = 1114111 : Assembly, Static, Literal, HasDefault
+  Methods:
+    GetDefinedCharacterBitmap(): PrivateScope, Assembly, Static, HideBySig
+    GetScalarValueFromUtf16(Char, Nullable`1, Boolean&(Out)): PrivateScope, Assembly, Static, HideBySig
+    GetScalarValueFromUtf16(Char*, Boolean): PrivateScope, Assembly, Static, HideBySig
+    GetUtf16SurrogatePairFromAstralScalarValue(Int32, Char&(Out), Char&(Out)): PrivateScope, Assembly, Static, HideBySig
+    GetUtf8RepresentationForScalarValue(UInt32): PrivateScope, Assembly, Static, HideBySig
+    IsCharacterDefined(Char): PrivateScope, Assembly, Static, HideBySig
+    IsSupplementaryCodePoint(Int32): PrivateScope, Assembly, Static, HideBySig
+Class System.Text.Unicode.UnicodeRange: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+    Void .ctor(Int32, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Int32 FirstCodePoint 'get set' : 
+    Int32 Length 'get set' : 
+  Methods:
+    get_FirstCodePoint(): PrivateScope, Public, HideBySig, SpecialName
+    get_Length(): PrivateScope, Public, HideBySig, SpecialName
+    Create(Char, Char): PrivateScope, Public, Static, HideBySig
+Class System.Text.Unicode.UnicodeRanges: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Properties:
+    System.Text.Unicode.UnicodeRange None 'get ' : 
+    System.Text.Unicode.UnicodeRange All 'get ' : 
+    System.Text.Unicode.UnicodeRange BasicLatin 'get ' : 
+    System.Text.Unicode.UnicodeRange Latin1Supplement 'get ' : 
+    System.Text.Unicode.UnicodeRange LatinExtendedA 'get ' : 
+    System.Text.Unicode.UnicodeRange LatinExtendedB 'get ' : 
+    System.Text.Unicode.UnicodeRange IpaExtensions 'get ' : 
+    System.Text.Unicode.UnicodeRange SpacingModifierLetters 'get ' : 
+    System.Text.Unicode.UnicodeRange CombiningDiacriticalMarks 'get ' : 
+    System.Text.Unicode.UnicodeRange GreekandCoptic 'get ' : 
+    System.Text.Unicode.UnicodeRange Cyrillic 'get ' : 
+    System.Text.Unicode.UnicodeRange CyrillicSupplement 'get ' : 
+    System.Text.Unicode.UnicodeRange Armenian 'get ' : 
+    System.Text.Unicode.UnicodeRange Hebrew 'get ' : 
+    System.Text.Unicode.UnicodeRange Arabic 'get ' : 
+    System.Text.Unicode.UnicodeRange Syriac 'get ' : 
+    System.Text.Unicode.UnicodeRange ArabicSupplement 'get ' : 
+    System.Text.Unicode.UnicodeRange Thaana 'get ' : 
+    System.Text.Unicode.UnicodeRange NKo 'get ' : 
+    System.Text.Unicode.UnicodeRange Samaritan 'get ' : 
+    System.Text.Unicode.UnicodeRange Mandaic 'get ' : 
+    System.Text.Unicode.UnicodeRange ArabicExtendedA 'get ' : 
+    System.Text.Unicode.UnicodeRange Devanagari 'get ' : 
+    System.Text.Unicode.UnicodeRange Bengali 'get ' : 
+    System.Text.Unicode.UnicodeRange Gurmukhi 'get ' : 
+    System.Text.Unicode.UnicodeRange Gujarati 'get ' : 
+    System.Text.Unicode.UnicodeRange Oriya 'get ' : 
+    System.Text.Unicode.UnicodeRange Tamil 'get ' : 
+    System.Text.Unicode.UnicodeRange Telugu 'get ' : 
+    System.Text.Unicode.UnicodeRange Kannada 'get ' : 
+    System.Text.Unicode.UnicodeRange Malayalam 'get ' : 
+    System.Text.Unicode.UnicodeRange Sinhala 'get ' : 
+    System.Text.Unicode.UnicodeRange Thai 'get ' : 
+    System.Text.Unicode.UnicodeRange Lao 'get ' : 
+    System.Text.Unicode.UnicodeRange Tibetan 'get ' : 
+    System.Text.Unicode.UnicodeRange Myanmar 'get ' : 
+    System.Text.Unicode.UnicodeRange Georgian 'get ' : 
+    System.Text.Unicode.UnicodeRange HangulJamo 'get ' : 
+    System.Text.Unicode.UnicodeRange Ethiopic 'get ' : 
+    System.Text.Unicode.UnicodeRange EthiopicSupplement 'get ' : 
+    System.Text.Unicode.UnicodeRange Cherokee 'get ' : 
+    System.Text.Unicode.UnicodeRange UnifiedCanadianAboriginalSyllabics 'get ' : 
+    System.Text.Unicode.UnicodeRange Ogham 'get ' : 
+    System.Text.Unicode.UnicodeRange Runic 'get ' : 
+    System.Text.Unicode.UnicodeRange Tagalog 'get ' : 
+    System.Text.Unicode.UnicodeRange Hanunoo 'get ' : 
+    System.Text.Unicode.UnicodeRange Buhid 'get ' : 
+    System.Text.Unicode.UnicodeRange Tagbanwa 'get ' : 
+    System.Text.Unicode.UnicodeRange Khmer 'get ' : 
+    System.Text.Unicode.UnicodeRange Mongolian 'get ' : 
+    System.Text.Unicode.UnicodeRange UnifiedCanadianAboriginalSyllabicsExtended 'get ' : 
+    System.Text.Unicode.UnicodeRange Limbu 'get ' : 
+    System.Text.Unicode.UnicodeRange TaiLe 'get ' : 
+    System.Text.Unicode.UnicodeRange NewTaiLue 'get ' : 
+    System.Text.Unicode.UnicodeRange KhmerSymbols 'get ' : 
+    System.Text.Unicode.UnicodeRange Buginese 'get ' : 
+    System.Text.Unicode.UnicodeRange TaiTham 'get ' : 
+    System.Text.Unicode.UnicodeRange CombiningDiacriticalMarksExtended 'get ' : 
+    System.Text.Unicode.UnicodeRange Balinese 'get ' : 
+    System.Text.Unicode.UnicodeRange Sundanese 'get ' : 
+    System.Text.Unicode.UnicodeRange Batak 'get ' : 
+    System.Text.Unicode.UnicodeRange Lepcha 'get ' : 
+    System.Text.Unicode.UnicodeRange OlChiki 'get ' : 
+    System.Text.Unicode.UnicodeRange SundaneseSupplement 'get ' : 
+    System.Text.Unicode.UnicodeRange VedicExtensions 'get ' : 
+    System.Text.Unicode.UnicodeRange PhoneticExtensions 'get ' : 
+    System.Text.Unicode.UnicodeRange PhoneticExtensionsSupplement 'get ' : 
+    System.Text.Unicode.UnicodeRange CombiningDiacriticalMarksSupplement 'get ' : 
+    System.Text.Unicode.UnicodeRange LatinExtendedAdditional 'get ' : 
+    System.Text.Unicode.UnicodeRange GreekExtended 'get ' : 
+    System.Text.Unicode.UnicodeRange GeneralPunctuation 'get ' : 
+    System.Text.Unicode.UnicodeRange SuperscriptsandSubscripts 'get ' : 
+    System.Text.Unicode.UnicodeRange CurrencySymbols 'get ' : 
+    System.Text.Unicode.UnicodeRange CombiningDiacriticalMarksforSymbols 'get ' : 
+    System.Text.Unicode.UnicodeRange LetterlikeSymbols 'get ' : 
+    System.Text.Unicode.UnicodeRange NumberForms 'get ' : 
+    System.Text.Unicode.UnicodeRange Arrows 'get ' : 
+    System.Text.Unicode.UnicodeRange MathematicalOperators 'get ' : 
+    System.Text.Unicode.UnicodeRange MiscellaneousTechnical 'get ' : 
+    System.Text.Unicode.UnicodeRange ControlPictures 'get ' : 
+    System.Text.Unicode.UnicodeRange OpticalCharacterRecognition 'get ' : 
+    System.Text.Unicode.UnicodeRange EnclosedAlphanumerics 'get ' : 
+    System.Text.Unicode.UnicodeRange BoxDrawing 'get ' : 
+    System.Text.Unicode.UnicodeRange BlockElements 'get ' : 
+    System.Text.Unicode.UnicodeRange GeometricShapes 'get ' : 
+    System.Text.Unicode.UnicodeRange MiscellaneousSymbols 'get ' : 
+    System.Text.Unicode.UnicodeRange Dingbats 'get ' : 
+    System.Text.Unicode.UnicodeRange MiscellaneousMathematicalSymbolsA 'get ' : 
+    System.Text.Unicode.UnicodeRange SupplementalArrowsA 'get ' : 
+    System.Text.Unicode.UnicodeRange BraillePatterns 'get ' : 
+    System.Text.Unicode.UnicodeRange SupplementalArrowsB 'get ' : 
+    System.Text.Unicode.UnicodeRange MiscellaneousMathematicalSymbolsB 'get ' : 
+    System.Text.Unicode.UnicodeRange SupplementalMathematicalOperators 'get ' : 
+    System.Text.Unicode.UnicodeRange MiscellaneousSymbolsandArrows 'get ' : 
+    System.Text.Unicode.UnicodeRange Glagolitic 'get ' : 
+    System.Text.Unicode.UnicodeRange LatinExtendedC 'get ' : 
+    System.Text.Unicode.UnicodeRange Coptic 'get ' : 
+    System.Text.Unicode.UnicodeRange GeorgianSupplement 'get ' : 
+    System.Text.Unicode.UnicodeRange Tifinagh 'get ' : 
+    System.Text.Unicode.UnicodeRange EthiopicExtended 'get ' : 
+    System.Text.Unicode.UnicodeRange CyrillicExtendedA 'get ' : 
+    System.Text.Unicode.UnicodeRange SupplementalPunctuation 'get ' : 
+    System.Text.Unicode.UnicodeRange CjkRadicalsSupplement 'get ' : 
+    System.Text.Unicode.UnicodeRange KangxiRadicals 'get ' : 
+    System.Text.Unicode.UnicodeRange IdeographicDescriptionCharacters 'get ' : 
+    System.Text.Unicode.UnicodeRange CjkSymbolsandPunctuation 'get ' : 
+    System.Text.Unicode.UnicodeRange Hiragana 'get ' : 
+    System.Text.Unicode.UnicodeRange Katakana 'get ' : 
+    System.Text.Unicode.UnicodeRange Bopomofo 'get ' : 
+    System.Text.Unicode.UnicodeRange HangulCompatibilityJamo 'get ' : 
+    System.Text.Unicode.UnicodeRange Kanbun 'get ' : 
+    System.Text.Unicode.UnicodeRange BopomofoExtended 'get ' : 
+    System.Text.Unicode.UnicodeRange CjkStrokes 'get ' : 
+    System.Text.Unicode.UnicodeRange KatakanaPhoneticExtensions 'get ' : 
+    System.Text.Unicode.UnicodeRange EnclosedCjkLettersandMonths 'get ' : 
+    System.Text.Unicode.UnicodeRange CjkCompatibility 'get ' : 
+    System.Text.Unicode.UnicodeRange CjkUnifiedIdeographsExtensionA 'get ' : 
+    System.Text.Unicode.UnicodeRange YijingHexagramSymbols 'get ' : 
+    System.Text.Unicode.UnicodeRange CjkUnifiedIdeographs 'get ' : 
+    System.Text.Unicode.UnicodeRange YiSyllables 'get ' : 
+    System.Text.Unicode.UnicodeRange YiRadicals 'get ' : 
+    System.Text.Unicode.UnicodeRange Lisu 'get ' : 
+    System.Text.Unicode.UnicodeRange Vai 'get ' : 
+    System.Text.Unicode.UnicodeRange CyrillicExtendedB 'get ' : 
+    System.Text.Unicode.UnicodeRange Bamum 'get ' : 
+    System.Text.Unicode.UnicodeRange ModifierToneLetters 'get ' : 
+    System.Text.Unicode.UnicodeRange LatinExtendedD 'get ' : 
+    System.Text.Unicode.UnicodeRange SylotiNagri 'get ' : 
+    System.Text.Unicode.UnicodeRange CommonIndicNumberForms 'get ' : 
+    System.Text.Unicode.UnicodeRange Phagspa 'get ' : 
+    System.Text.Unicode.UnicodeRange Saurashtra 'get ' : 
+    System.Text.Unicode.UnicodeRange DevanagariExtended 'get ' : 
+    System.Text.Unicode.UnicodeRange KayahLi 'get ' : 
+    System.Text.Unicode.UnicodeRange Rejang 'get ' : 
+    System.Text.Unicode.UnicodeRange HangulJamoExtendedA 'get ' : 
+    System.Text.Unicode.UnicodeRange Javanese 'get ' : 
+    System.Text.Unicode.UnicodeRange MyanmarExtendedB 'get ' : 
+    System.Text.Unicode.UnicodeRange Cham 'get ' : 
+    System.Text.Unicode.UnicodeRange MyanmarExtendedA 'get ' : 
+    System.Text.Unicode.UnicodeRange TaiViet 'get ' : 
+    System.Text.Unicode.UnicodeRange MeeteiMayekExtensions 'get ' : 
+    System.Text.Unicode.UnicodeRange EthiopicExtendedA 'get ' : 
+    System.Text.Unicode.UnicodeRange LatinExtendedE 'get ' : 
+    System.Text.Unicode.UnicodeRange CherokeeSupplement 'get ' : 
+    System.Text.Unicode.UnicodeRange MeeteiMayek 'get ' : 
+    System.Text.Unicode.UnicodeRange HangulSyllables 'get ' : 
+    System.Text.Unicode.UnicodeRange HangulJamoExtendedB 'get ' : 
+    System.Text.Unicode.UnicodeRange CjkCompatibilityIdeographs 'get ' : 
+    System.Text.Unicode.UnicodeRange AlphabeticPresentationForms 'get ' : 
+    System.Text.Unicode.UnicodeRange ArabicPresentationFormsA 'get ' : 
+    System.Text.Unicode.UnicodeRange VariationSelectors 'get ' : 
+    System.Text.Unicode.UnicodeRange VerticalForms 'get ' : 
+    System.Text.Unicode.UnicodeRange CombiningHalfMarks 'get ' : 
+    System.Text.Unicode.UnicodeRange CjkCompatibilityForms 'get ' : 
+    System.Text.Unicode.UnicodeRange SmallFormVariants 'get ' : 
+    System.Text.Unicode.UnicodeRange ArabicPresentationFormsB 'get ' : 
+    System.Text.Unicode.UnicodeRange HalfwidthandFullwidthForms 'get ' : 
+    System.Text.Unicode.UnicodeRange Specials 'get ' : 
+  Methods:
+    get_BlockElements(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_GeometricShapes(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_MiscellaneousSymbols(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Dingbats(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_MiscellaneousMathematicalSymbolsA(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_SupplementalArrowsA(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_BraillePatterns(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_SupplementalArrowsB(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_MiscellaneousMathematicalSymbolsB(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_SupplementalMathematicalOperators(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_MiscellaneousSymbolsandArrows(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Glagolitic(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_LatinExtendedC(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Coptic(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_GeorgianSupplement(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Tifinagh(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_EthiopicExtended(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_CyrillicExtendedA(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_SupplementalPunctuation(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_CjkRadicalsSupplement(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_KangxiRadicals(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_IdeographicDescriptionCharacters(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_CjkSymbolsandPunctuation(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Hiragana(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Katakana(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Bopomofo(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_HangulCompatibilityJamo(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Kanbun(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_BopomofoExtended(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_CjkStrokes(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_KatakanaPhoneticExtensions(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_EnclosedCjkLettersandMonths(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_CjkCompatibility(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_CjkUnifiedIdeographsExtensionA(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_YijingHexagramSymbols(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_CjkUnifiedIdeographs(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_YiSyllables(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_YiRadicals(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Lisu(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Vai(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_CyrillicExtendedB(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Bamum(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_ModifierToneLetters(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_LatinExtendedD(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_SylotiNagri(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_CommonIndicNumberForms(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Phagspa(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Saurashtra(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_DevanagariExtended(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_KayahLi(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Rejang(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_HangulJamoExtendedA(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Javanese(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_MyanmarExtendedB(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Cham(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_MyanmarExtendedA(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_TaiViet(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_MeeteiMayekExtensions(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_EthiopicExtendedA(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_LatinExtendedE(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_CherokeeSupplement(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_MeeteiMayek(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_HangulSyllables(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_HangulJamoExtendedB(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_CjkCompatibilityIdeographs(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_AlphabeticPresentationForms(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_ArabicPresentationFormsA(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_VariationSelectors(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_VerticalForms(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_CombiningHalfMarks(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_CjkCompatibilityForms(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_SmallFormVariants(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_ArabicPresentationFormsB(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_HalfwidthandFullwidthForms(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Specials(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_None(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_All(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_BasicLatin(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Latin1Supplement(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_LatinExtendedA(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_LatinExtendedB(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_IpaExtensions(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_SpacingModifierLetters(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_CombiningDiacriticalMarks(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_GreekandCoptic(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Cyrillic(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_CyrillicSupplement(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Armenian(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Hebrew(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Arabic(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Syriac(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_ArabicSupplement(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Thaana(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_NKo(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Samaritan(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Mandaic(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_ArabicExtendedA(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Devanagari(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Bengali(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Gurmukhi(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Gujarati(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Oriya(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Tamil(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Telugu(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Kannada(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Malayalam(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Sinhala(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Thai(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Lao(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Tibetan(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Myanmar(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Georgian(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_HangulJamo(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Ethiopic(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_EthiopicSupplement(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Cherokee(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_UnifiedCanadianAboriginalSyllabics(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Ogham(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Runic(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Tagalog(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Hanunoo(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Buhid(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Tagbanwa(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Khmer(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Mongolian(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_UnifiedCanadianAboriginalSyllabicsExtended(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Limbu(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_TaiLe(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_NewTaiLue(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_KhmerSymbols(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Buginese(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_TaiTham(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_CombiningDiacriticalMarksExtended(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Balinese(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Sundanese(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Batak(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Lepcha(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_OlChiki(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_SundaneseSupplement(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_VedicExtensions(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_PhoneticExtensions(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_PhoneticExtensionsSupplement(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_CombiningDiacriticalMarksSupplement(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_LatinExtendedAdditional(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_GreekExtended(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_GeneralPunctuation(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_SuperscriptsandSubscripts(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_CurrencySymbols(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_CombiningDiacriticalMarksforSymbols(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_LetterlikeSymbols(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_NumberForms(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Arrows(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_MathematicalOperators(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_MiscellaneousTechnical(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_ControlPictures(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_OpticalCharacterRecognition(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_EnclosedAlphanumerics(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_BoxDrawing(): PrivateScope, Public, Static, HideBySig, SpecialName
+Class System.Text.Encodings.Web.HexUtil: AutoLayout, AnsiClass, Class, Abstract, Sealed, BeforeFieldInit
+  Methods:
+    UInt32LsbToHexDigit(UInt32): PrivateScope, Assembly, Static, HideBySig
+    Int32LsbToHexDigit(Int32): PrivateScope, Assembly, Static, HideBySig
+    ByteToHexDigits(Byte, Char&(Out), Char&(Out)): PrivateScope, Assembly, Static, HideBySig
+Class System.Text.Encodings.Web.HtmlEncoder: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+  :System.Text.Encodings.Web.TextEncoder
+  Properties:
+    System.Text.Encodings.Web.HtmlEncoder Default 'get ' : 
+  Methods:
+    get_Default(): PrivateScope, Public, Static, HideBySig, SpecialName
+    Create(TextEncoderSettings): PrivateScope, Public, Static, HideBySig
+    Create(UnicodeRange[]): PrivateScope, Public, Static, HideBySig
+Class System.Text.Encodings.Web.DefaultHtmlEncoder: AutoLayout, AnsiClass, Class, Sealed, BeforeFieldInit
+  :System.Text.Encodings.Web.HtmlEncoder
+    Void .ctor(System.Text.Encodings.Web.TextEncoderSettings): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Text.Unicode.UnicodeRange[]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Text.Encodings.Web.DefaultHtmlEncoder Singleton : Assembly, Static, InitOnly
+  Properties:
+    Int32 MaxOutputCharactersPerInputCharacter 'get ' : 
+  Methods:
+    ForbidHtmlCharacters(AllowedCharactersBitmap): PrivateScope, Assembly, Static, HideBySig
+    WillEncode(Int32): PrivateScope, Public, Virtual, HideBySig
+    FindFirstCharacterToEncode(Char*, Int32): PrivateScope, Public, Virtual, HideBySig
+    get_MaxOutputCharactersPerInputCharacter(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    TryEncodeUnicodeScalar(Int32, Char*, Int32, Int32&(Out)): PrivateScope, Public, Virtual, HideBySig
+Class System.Text.Encodings.Web.JavaScriptEncoder: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+  :System.Text.Encodings.Web.TextEncoder
+  Properties:
+    System.Text.Encodings.Web.JavaScriptEncoder Default 'get ' : 
+  Methods:
+    get_Default(): PrivateScope, Public, Static, HideBySig, SpecialName
+    Create(TextEncoderSettings): PrivateScope, Public, Static, HideBySig
+    Create(UnicodeRange[]): PrivateScope, Public, Static, HideBySig
+Class System.Text.Encodings.Web.DefaultJavaScriptEncoder: AutoLayout, AnsiClass, Class, Sealed, BeforeFieldInit
+  :System.Text.Encodings.Web.JavaScriptEncoder
+    Void .ctor(System.Text.Encodings.Web.TextEncoderSettings): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Text.Unicode.UnicodeRange[]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Text.Encodings.Web.DefaultJavaScriptEncoder Singleton : Assembly, Static, InitOnly
+  Properties:
+    Int32 MaxOutputCharactersPerInputCharacter 'get ' : 
+  Methods:
+    WillEncode(Int32): PrivateScope, Public, Virtual, HideBySig
+    FindFirstCharacterToEncode(Char*, Int32): PrivateScope, Public, Virtual, HideBySig
+    get_MaxOutputCharactersPerInputCharacter(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    TryEncodeUnicodeScalar(Int32, Char*, Int32, Int32&(Out)): PrivateScope, Public, Virtual, HideBySig
+Class System.Text.Encodings.Web.TextEncoder: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+  Properties:
+    Int32 MaxOutputCharactersPerInputCharacter 'get ' : 
+  Methods:
+    TryEncodeUnicodeScalar(Int32, Char*, Int32, Int32&(Out)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    FindFirstCharacterToEncode(Char*, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    WillEncode(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    get_MaxOutputCharactersPerInputCharacter(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    Encode(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Encode(TextWriter, String): PrivateScope, Public, HideBySig
+    Encode(TextWriter, String, Int32, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Encode(TextWriter, Char[], Int32, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    TryCopyCharacters(Char[], Char*, Int32, Int32&(Out)): PrivateScope, Assembly, Static, HideBySig
+    TryWriteScalarAsChar(Int32, Char*, Int32, Int32&(Out)): PrivateScope, Assembly, Static, HideBySig
+Class System.Text.Encodings.Web.TextEncoderSettings: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Text.Encodings.Web.TextEncoderSettings): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Text.Unicode.UnicodeRange[]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    AllowCharacter(Char): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    AllowCharacters(Char[]): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    AllowCodePoints(IEnumerable`1): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    AllowRange(UnicodeRange): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    AllowRanges(UnicodeRange[]): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Clear(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    ForbidCharacter(Char): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    ForbidCharacters(Char[]): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    ForbidRange(UnicodeRange): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    ForbidRanges(UnicodeRange[]): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetAllowedCharacters(): PrivateScope, Assembly, HideBySig
+    GetAllowedCodePoints(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class System.Text.Encodings.Web.UrlEncoder: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+  :System.Text.Encodings.Web.TextEncoder
+  Properties:
+    System.Text.Encodings.Web.UrlEncoder Default 'get ' : 
+  Methods:
+    get_Default(): PrivateScope, Public, Static, HideBySig, SpecialName
+    Create(TextEncoderSettings): PrivateScope, Public, Static, HideBySig
+    Create(UnicodeRange[]): PrivateScope, Public, Static, HideBySig
+Class System.Text.Encodings.Web.DefaultUrlEncoder: AutoLayout, AnsiClass, Class, Sealed, BeforeFieldInit
+  :System.Text.Encodings.Web.UrlEncoder
+    Void .ctor(System.Text.Encodings.Web.TextEncoderSettings): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Text.Unicode.UnicodeRange[]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Text.Encodings.Web.DefaultUrlEncoder Singleton : Assembly, Static, InitOnly
+  Properties:
+    Int32 MaxOutputCharactersPerInputCharacter 'get ' : 
+  Methods:
+    get_MaxOutputCharactersPerInputCharacter(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    WillEncode(Int32): PrivateScope, Public, Virtual, HideBySig
+    FindFirstCharacterToEncode(Char*, Int32): PrivateScope, Public, Virtual, HideBySig
+    TryEncodeUnicodeScalar(Int32, Char*, Int32, Int32&(Out)): PrivateScope, Public, Virtual, HideBySig
+Struct System.Text.Internal.AllowedCharactersBitmap: AutoLayout, AnsiClass, Class, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Methods:
+    CreateNew(): PrivateScope, Public, Static, HideBySig
+    AllowCharacter(Char): PrivateScope, Public, HideBySig
+    ForbidCharacter(Char): PrivateScope, Public, HideBySig
+    ForbidUndefinedCharacters(): PrivateScope, Public, HideBySig
+    Clear(): PrivateScope, Public, HideBySig
+    Clone(): PrivateScope, Public, HideBySig
+    IsCharacterAllowed(Char): PrivateScope, Public, HideBySig
+    IsUnicodeScalarAllowed(Int32): PrivateScope, Public, HideBySig
+    FindFirstCharacterToEncode(Char*, Int32): PrivateScope, Public, HideBySig

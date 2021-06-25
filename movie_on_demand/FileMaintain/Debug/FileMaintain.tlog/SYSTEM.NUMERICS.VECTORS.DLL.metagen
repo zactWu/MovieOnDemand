@@ -1,0 +1,150 @@
+  FxResources.System.Numerics.Vectors.SR.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly System.Numerics.Vectors, Version=4.1.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Numerics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Struct System.Numerics.Vector`1[T]: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  Type parameter: T, System.ValueType,  NotNullableValueType DefaultConstructor
+  :System.ValueType
+    Void .ctor(T): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(T[]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(T[], Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IEquatable`1[System.Numerics.Vector`1[T]]
+    System.IFormattable
+  Properties:
+    Int32 Count 'get ' : 
+    System.Numerics.Vector`1[T] Zero 'get ' : 
+    System.Numerics.Vector`1[T] One 'get ' : 
+    T Item [Int32] 'get ' : 
+  Methods:
+    get_Count(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Zero(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_One(): PrivateScope, Public, Static, HideBySig, SpecialName
+    CopyTo(T[]): PrivateScope, Public, HideBySig
+    CopyTo(T[], Int32): PrivateScope, Public, HideBySig
+    get_Item(Int32): PrivateScope, Public, HideBySig, SpecialName
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    Equals(Vector`1): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    ToString(String): PrivateScope, Public, HideBySig
+    ToString(String, IFormatProvider): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    op_Addition(Vector`1, Vector`1): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Subtraction(Vector`1, Vector`1): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Multiply(Vector`1, Vector`1): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Multiply(Vector`1, T): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Multiply(T, Vector`1): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Division(Vector`1, Vector`1): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_UnaryNegation(Vector`1): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_BitwiseAnd(Vector`1, Vector`1): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_BitwiseOr(Vector`1, Vector`1): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_ExclusiveOr(Vector`1, Vector`1): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_OnesComplement(Vector`1): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Equality(Vector`1, Vector`1): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Inequality(Vector`1, Vector`1): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Explicit(Vector`1): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Explicit(Vector`1): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Explicit(Vector`1): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Explicit(Vector`1): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Explicit(Vector`1): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Explicit(Vector`1): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Explicit(Vector`1): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Explicit(Vector`1): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Explicit(Vector`1): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Explicit(Vector`1): PrivateScope, Public, Static, HideBySig, SpecialName
+Class System.Numerics.Vector: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Properties:
+    Boolean IsHardwareAccelerated 'get ' : 
+  Methods:
+    Multiply(Vector`1, T): PrivateScope, Public, Static, HideBySig
+    Multiply(T, Vector`1): PrivateScope, Public, Static, HideBySig
+    Divide(Vector`1, Vector`1): PrivateScope, Public, Static, HideBySig
+    Negate(Vector`1): PrivateScope, Public, Static, HideBySig
+    BitwiseAnd(Vector`1, Vector`1): PrivateScope, Public, Static, HideBySig
+    BitwiseOr(Vector`1, Vector`1): PrivateScope, Public, Static, HideBySig
+    OnesComplement(Vector`1): PrivateScope, Public, Static, HideBySig
+    Xor(Vector`1, Vector`1): PrivateScope, Public, Static, HideBySig
+    AndNot(Vector`1, Vector`1): PrivateScope, Public, Static, HideBySig
+    AsVectorByte(Vector`1): PrivateScope, Public, Static, HideBySig
+    AsVectorSByte(Vector`1): PrivateScope, Public, Static, HideBySig
+    AsVectorUInt16(Vector`1): PrivateScope, Public, Static, HideBySig
+    AsVectorInt16(Vector`1): PrivateScope, Public, Static, HideBySig
+    AsVectorUInt32(Vector`1): PrivateScope, Public, Static, HideBySig
+    AsVectorInt32(Vector`1): PrivateScope, Public, Static, HideBySig
+    AsVectorUInt64(Vector`1): PrivateScope, Public, Static, HideBySig
+    AsVectorInt64(Vector`1): PrivateScope, Public, Static, HideBySig
+    AsVectorSingle(Vector`1): PrivateScope, Public, Static, HideBySig
+    AsVectorDouble(Vector`1): PrivateScope, Public, Static, HideBySig
+    Widen(Vector`1, Vector`1&(Out), Vector`1&(Out)): PrivateScope, Public, Static, HideBySig
+    Widen(Vector`1, Vector`1&(Out), Vector`1&(Out)): PrivateScope, Public, Static, HideBySig
+    Widen(Vector`1, Vector`1&(Out), Vector`1&(Out)): PrivateScope, Public, Static, HideBySig
+    Widen(Vector`1, Vector`1&(Out), Vector`1&(Out)): PrivateScope, Public, Static, HideBySig
+    Widen(Vector`1, Vector`1&(Out), Vector`1&(Out)): PrivateScope, Public, Static, HideBySig
+    Widen(Vector`1, Vector`1&(Out), Vector`1&(Out)): PrivateScope, Public, Static, HideBySig
+    Widen(Vector`1, Vector`1&(Out), Vector`1&(Out)): PrivateScope, Public, Static, HideBySig
+    Narrow(Vector`1, Vector`1): PrivateScope, Public, Static, HideBySig
+    Narrow(Vector`1, Vector`1): PrivateScope, Public, Static, HideBySig
+    Narrow(Vector`1, Vector`1): PrivateScope, Public, Static, HideBySig
+    Narrow(Vector`1, Vector`1): PrivateScope, Public, Static, HideBySig
+    Narrow(Vector`1, Vector`1): PrivateScope, Public, Static, HideBySig
+    Narrow(Vector`1, Vector`1): PrivateScope, Public, Static, HideBySig
+    Narrow(Vector`1, Vector`1): PrivateScope, Public, Static, HideBySig
+    ConvertToSingle(Vector`1): PrivateScope, Public, Static, HideBySig
+    ConvertToSingle(Vector`1): PrivateScope, Public, Static, HideBySig
+    ConvertToDouble(Vector`1): PrivateScope, Public, Static, HideBySig
+    ConvertToDouble(Vector`1): PrivateScope, Public, Static, HideBySig
+    ConvertToInt32(Vector`1): PrivateScope, Public, Static, HideBySig
+    ConvertToUInt32(Vector`1): PrivateScope, Public, Static, HideBySig
+    ConvertToInt64(Vector`1): PrivateScope, Public, Static, HideBySig
+    ConvertToUInt64(Vector`1): PrivateScope, Public, Static, HideBySig
+    ConditionalSelect(Vector`1, Vector`1, Vector`1): PrivateScope, Public, Static, HideBySig
+    ConditionalSelect(Vector`1, Vector`1, Vector`1): PrivateScope, Public, Static, HideBySig
+    ConditionalSelect(Vector`1, Vector`1, Vector`1): PrivateScope, Public, Static, HideBySig
+    Equals(Vector`1, Vector`1): PrivateScope, Public, Static, HideBySig
+    Equals(Vector`1, Vector`1): PrivateScope, Public, Static, HideBySig
+    Equals(Vector`1, Vector`1): PrivateScope, Public, Static, HideBySig
+    Equals(Vector`1, Vector`1): PrivateScope, Public, Static, HideBySig
+    Equals(Vector`1, Vector`1): PrivateScope, Public, Static, HideBySig
+    EqualsAll(Vector`1, Vector`1): PrivateScope, Public, Static, HideBySig
+    EqualsAny(Vector`1, Vector`1): PrivateScope, Public, Static, HideBySig
+    LessThan(Vector`1, Vector`1): PrivateScope, Public, Static, HideBySig
+    LessThan(Vector`1, Vector`1): PrivateScope, Public, Static, HideBySig
+    LessThan(Vector`1, Vector`1): PrivateScope, Public, Static, HideBySig
+    LessThan(Vector`1, Vector`1): PrivateScope, Public, Static, HideBySig
+    LessThan(Vector`1, Vector`1): PrivateScope, Public, Static, HideBySig
+    LessThanAll(Vector`1, Vector`1): PrivateScope, Public, Static, HideBySig
+    LessThanAny(Vector`1, Vector`1): PrivateScope, Public, Static, HideBySig
+    LessThanOrEqual(Vector`1, Vector`1): PrivateScope, Public, Static, HideBySig
+    LessThanOrEqual(Vector`1, Vector`1): PrivateScope, Public, Static, HideBySig
+    LessThanOrEqual(Vector`1, Vector`1): PrivateScope, Public, Static, HideBySig
+    LessThanOrEqual(Vector`1, Vector`1): PrivateScope, Public, Static, HideBySig
+    LessThanOrEqual(Vector`1, Vector`1): PrivateScope, Public, Static, HideBySig
+    LessThanOrEqualAll(Vector`1, Vector`1): PrivateScope, Public, Static, HideBySig
+    LessThanOrEqualAny(Vector`1, Vector`1): PrivateScope, Public, Static, HideBySig
+    GreaterThan(Vector`1, Vector`1): PrivateScope, Public, Static, HideBySig
+    GreaterThan(Vector`1, Vector`1): PrivateScope, Public, Static, HideBySig
+    GreaterThan(Vector`1, Vector`1): PrivateScope, Public, Static, HideBySig
+    GreaterThan(Vector`1, Vector`1): PrivateScope, Public, Static, HideBySig
+    GreaterThan(Vector`1, Vector`1): PrivateScope, Public, Static, HideBySig
+    GreaterThanAll(Vector`1, Vector`1): PrivateScope, Public, Static, HideBySig
+    GreaterThanAny(Vector`1, Vector`1): PrivateScope, Public, Static, HideBySig
+    GreaterThanOrEqual(Vector`1, Vector`1): PrivateScope, Public, Static, HideBySig
+    GreaterThanOrEqual(Vector`1, Vector`1): PrivateScope, Public, Static, HideBySig
+    GreaterThanOrEqual(Vector`1, Vector`1): PrivateScope, Public, Static, HideBySig
+    GreaterThanOrEqual(Vector`1, Vector`1): PrivateScope, Public, Static, HideBySig
+    GreaterThanOrEqual(Vector`1, Vector`1): PrivateScope, Public, Static, HideBySig
+    GreaterThanOrEqualAll(Vector`1, Vector`1): PrivateScope, Public, Static, HideBySig
+    GreaterThanOrEqualAny(Vector`1, Vector`1): PrivateScope, Public, Static, HideBySig
+    get_IsHardwareAccelerated(): PrivateScope, Public, Static, HideBySig, SpecialName
+    Abs(Vector`1): PrivateScope, Public, Static, HideBySig
+    Min(Vector`1, Vector`1): PrivateScope, Public, Static, HideBySig
+    Max(Vector`1, Vector`1): PrivateScope, Public, Static, HideBySig
+    Dot(Vector`1, Vector`1): PrivateScope, Public, Static, HideBySig
+    SquareRoot(Vector`1): PrivateScope, Public, Static, HideBySig
+    Add(Vector`1, Vector`1): PrivateScope, Public, Static, HideBySig
+    Subtract(Vector`1, Vector`1): PrivateScope, Public, Static, HideBySig
+    Multiply(Vector`1, Vector`1): PrivateScope, Public, Static, HideBySig

@@ -1,0 +1,2 @@
+D:\code\csharp\movie_on_demand\movie_on_demand\FileMaintain\Debug\FileMaintain.vcxprojAssemblyReference.cache
+D:\code\csharp\movie_on_demand\movie_on_demand\FileMaintain\Debug\FileMaintain.vcxproj.CopyComplete

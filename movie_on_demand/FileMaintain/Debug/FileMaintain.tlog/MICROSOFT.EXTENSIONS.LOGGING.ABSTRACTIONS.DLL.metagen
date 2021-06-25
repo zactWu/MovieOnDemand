@@ -1,0 +1,219 @@
+  Microsoft.Extensions.Logging.Abstractions.Resource.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly Microsoft.Extensions.Logging.Abstractions, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60: 
+	hash=SHA1, flags=PublicKey
+Assembly netstandard, Version=2.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51: 
+	hash=None, flags=None
+Class Microsoft.CodeAnalysis.EmbeddedAttribute: AutoLayout, AnsiClass, Class, Sealed, BeforeFieldInit
+  :System.Attribute
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class System.Runtime.CompilerServices.IsReadOnlyAttribute: AutoLayout, AnsiClass, Class, Sealed, BeforeFieldInit
+  :System.Attribute
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Struct Microsoft.Extensions.Logging.EventId: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+    Void .ctor(Int32, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Int32 Id   'get ' : 
+    System.String Name 'get ' : 
+  Methods:
+    op_Implicit(Int32): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Equality(EventId, EventId): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Inequality(EventId, EventId): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Id(): PrivateScope, Public, HideBySig, SpecialName
+    get_Name(): PrivateScope, Public, HideBySig, SpecialName
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    Equals(EventId): PrivateScope, Public, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+Interface Microsoft.Extensions.Logging.IExternalScopeProvider: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Methods:
+    ForEachScope(Action`2, TState): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Push(Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Interface Microsoft.Extensions.Logging.ILogger: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Methods:
+    Log(LogLevel, EventId, TState, Exception, Func`3): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    IsEnabled(LogLevel): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    BeginScope(TState): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Interface Microsoft.Extensions.Logging.ILoggerFactory: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Interfaces:
+    System.IDisposable
+  Methods:
+    CreateLogger(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    AddProvider(ILoggerProvider): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Interface Microsoft.Extensions.Logging.ILogger`1[TCategoryName]: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Type parameter: TCategoryName,  Covariant
+  Interfaces:
+    Microsoft.Extensions.Logging.ILogger
+Interface Microsoft.Extensions.Logging.ILoggerProvider: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Interfaces:
+    System.IDisposable
+  Methods:
+    CreateLogger(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Interface Microsoft.Extensions.Logging.ISupportExternalScope: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Methods:
+    SetScopeProvider(IExternalScopeProvider): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Class Microsoft.Extensions.Logging.LoggerExtensions: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Methods:
+    LogDebug(ILogger, EventId, Exception, String, Object[]): PrivateScope, Public, Static, HideBySig
+    LogDebug(ILogger, EventId, String, Object[]): PrivateScope, Public, Static, HideBySig
+    LogDebug(ILogger, Exception, String, Object[]): PrivateScope, Public, Static, HideBySig
+    LogDebug(ILogger, String, Object[]): PrivateScope, Public, Static, HideBySig
+    LogTrace(ILogger, EventId, Exception, String, Object[]): PrivateScope, Public, Static, HideBySig
+    LogTrace(ILogger, EventId, String, Object[]): PrivateScope, Public, Static, HideBySig
+    LogTrace(ILogger, Exception, String, Object[]): PrivateScope, Public, Static, HideBySig
+    LogTrace(ILogger, String, Object[]): PrivateScope, Public, Static, HideBySig
+    LogInformation(ILogger, EventId, Exception, String, Object[]): PrivateScope, Public, Static, HideBySig
+    LogInformation(ILogger, EventId, String, Object[]): PrivateScope, Public, Static, HideBySig
+    LogInformation(ILogger, Exception, String, Object[]): PrivateScope, Public, Static, HideBySig
+    LogInformation(ILogger, String, Object[]): PrivateScope, Public, Static, HideBySig
+    LogWarning(ILogger, EventId, Exception, String, Object[]): PrivateScope, Public, Static, HideBySig
+    LogWarning(ILogger, EventId, String, Object[]): PrivateScope, Public, Static, HideBySig
+    LogWarning(ILogger, Exception, String, Object[]): PrivateScope, Public, Static, HideBySig
+    LogWarning(ILogger, String, Object[]): PrivateScope, Public, Static, HideBySig
+    LogError(ILogger, EventId, Exception, String, Object[]): PrivateScope, Public, Static, HideBySig
+    LogError(ILogger, EventId, String, Object[]): PrivateScope, Public, Static, HideBySig
+    LogError(ILogger, Exception, String, Object[]): PrivateScope, Public, Static, HideBySig
+    LogError(ILogger, String, Object[]): PrivateScope, Public, Static, HideBySig
+    LogCritical(ILogger, EventId, Exception, String, Object[]): PrivateScope, Public, Static, HideBySig
+    LogCritical(ILogger, EventId, String, Object[]): PrivateScope, Public, Static, HideBySig
+    LogCritical(ILogger, Exception, String, Object[]): PrivateScope, Public, Static, HideBySig
+    LogCritical(ILogger, String, Object[]): PrivateScope, Public, Static, HideBySig
+    Log(ILogger, LogLevel, String, Object[]): PrivateScope, Public, Static, HideBySig
+    Log(ILogger, LogLevel, EventId, String, Object[]): PrivateScope, Public, Static, HideBySig
+    Log(ILogger, LogLevel, Exception, String, Object[]): PrivateScope, Public, Static, HideBySig
+    Log(ILogger, LogLevel, EventId, Exception, String, Object[]): PrivateScope, Public, Static, HideBySig
+    BeginScope(ILogger, String, Object[]): PrivateScope, Public, Static, HideBySig
+Class Microsoft.Extensions.Logging.LoggerExternalScopeProvider: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    Microsoft.Extensions.Logging.IExternalScopeProvider
+  Methods:
+    ForEachScope(Action`2, TState): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    Push(Object): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    <ForEachScope>g__Report|1_0(Scope, <>c__DisplayClass1_0`1&): PrivateScope, Assembly, Static, HideBySig
+Class Microsoft.Extensions.Logging.LoggerFactoryExtensions: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Methods:
+    CreateLogger(ILoggerFactory): PrivateScope, Public, Static, HideBySig
+    CreateLogger(ILoggerFactory, Type): PrivateScope, Public, Static, HideBySig
+Class Microsoft.Extensions.Logging.LoggerMessage: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Methods:
+    DefineScope(String): PrivateScope, Public, Static, HideBySig
+    DefineScope(String): PrivateScope, Public, Static, HideBySig
+    DefineScope(String): PrivateScope, Public, Static, HideBySig
+    DefineScope(String): PrivateScope, Public, Static, HideBySig
+    Define(LogLevel, EventId, String): PrivateScope, Public, Static, HideBySig
+    Define(LogLevel, EventId, String): PrivateScope, Public, Static, HideBySig
+    Define(LogLevel, EventId, String): PrivateScope, Public, Static, HideBySig
+    Define(LogLevel, EventId, String): PrivateScope, Public, Static, HideBySig
+    Define(LogLevel, EventId, String): PrivateScope, Public, Static, HideBySig
+    Define(LogLevel, EventId, String): PrivateScope, Public, Static, HideBySig
+    Define(LogLevel, EventId, String): PrivateScope, Public, Static, HideBySig
+Class Microsoft.Extensions.Logging.Logger`1[T]: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  Type parameter: T
+    Void .ctor(Microsoft.Extensions.Logging.ILoggerFactory): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    Microsoft.Extensions.Logging.ILogger`1[T]
+    Microsoft.Extensions.Logging.ILogger
+Struct Microsoft.Extensions.Logging.LogLevel: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    Microsoft.Extensions.Logging.LogLevel Trace = 0 : Public, Static, Literal, HasDefault
+    Microsoft.Extensions.Logging.LogLevel Debug = 1 : Public, Static, Literal, HasDefault
+    Microsoft.Extensions.Logging.LogLevel Information = 2 : Public, Static, Literal, HasDefault
+    Microsoft.Extensions.Logging.LogLevel Warning = 3 : Public, Static, Literal, HasDefault
+    Microsoft.Extensions.Logging.LogLevel Error = 4 : Public, Static, Literal, HasDefault
+    Microsoft.Extensions.Logging.LogLevel Critical = 5 : Public, Static, Literal, HasDefault
+    Microsoft.Extensions.Logging.LogLevel None = 6 : Public, Static, Literal, HasDefault
+Class Microsoft.Extensions.Logging.Abstractions.NullLogger: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  Interfaces:
+    Microsoft.Extensions.Logging.ILogger
+  Properties:
+    Microsoft.Extensions.Logging.Abstractions.NullLogger Instance 'get ' : 
+  Methods:
+    get_Instance(): PrivateScope, Public, Static, HideBySig, SpecialName
+    BeginScope(TState): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    IsEnabled(LogLevel): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    Log(LogLevel, EventId, TState, Exception, Func`3): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+Class Microsoft.Extensions.Logging.Abstractions.NullLoggerFactory: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    Microsoft.Extensions.Logging.ILoggerFactory
+    System.IDisposable
+  Fields:
+    Microsoft.Extensions.Logging.Abstractions.NullLoggerFactory Instance : Public, Static, InitOnly
+  Methods:
+    CreateLogger(String): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    AddProvider(ILoggerProvider): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+Class Microsoft.Extensions.Logging.Abstractions.NullLogger`1[T]: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  Type parameter: T
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    Microsoft.Extensions.Logging.ILogger`1[T]
+    Microsoft.Extensions.Logging.ILogger
+  Fields:
+    Microsoft.Extensions.Logging.Abstractions.NullLogger`1[T] Instance : Public, Static, InitOnly
+  Methods:
+    BeginScope(TState): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    Log(LogLevel, EventId, TState, Exception, Func`3): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    IsEnabled(LogLevel): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+Class Microsoft.Extensions.Logging.Abstractions.NullLoggerProvider: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  Interfaces:
+    Microsoft.Extensions.Logging.ILoggerProvider
+    System.IDisposable
+  Properties:
+    Microsoft.Extensions.Logging.Abstractions.NullLoggerProvider Instance 'get ' : 
+  Methods:
+    get_Instance(): PrivateScope, Public, Static, HideBySig, SpecialName
+    CreateLogger(String): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+Class Microsoft.Extensions.Logging.Abstractions.Resource: AutoLayout, AnsiClass, Class, Abstract, Sealed, BeforeFieldInit
+  Properties:
+    System.String UnexpectedNumberOfNamedParameters 'get ' : 
+  Methods:
+    get_UnexpectedNumberOfNamedParameters(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    FormatUnexpectedNumberOfNamedParameters(Object, Object, Object): PrivateScope, Assembly, Static, HideBySig
+Class Microsoft.Extensions.Logging.Abstractions.Internal.NullScope: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  Interfaces:
+    System.IDisposable
+  Properties:
+    Microsoft.Extensions.Logging.Abstractions.Internal.NullScope Instance 'get ' : 
+  Methods:
+    get_Instance(): PrivateScope, Public, Static, HideBySig, SpecialName
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+Class Microsoft.Extensions.Logging.Abstractions.Internal.TypeNameHelper: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    GetTypeDisplayName(Type): PrivateScope, Public, Static, HideBySig
+Class Microsoft.Extensions.Logging.Internal.FormattedLogValues: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.String, System.Object[]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.Collections.Generic.IReadOnlyList`1[System.Collections.Generic.KeyValuePair`2[System.String,System.Object]]
+    System.Collections.Generic.IReadOnlyCollection`1[System.Collections.Generic.KeyValuePair`2[System.String,System.Object]]
+    System.Collections.Generic.IEnumerable`1[System.Collections.Generic.KeyValuePair`2[System.String,System.Object]]
+    System.Collections.IEnumerable
+  Fields:
+    Int32 MaxCachedFormatters = 1024 : Assembly, Static, Literal, HasDefault
+  Properties:
+    Microsoft.Extensions.Logging.Internal.LogValuesFormatter Formatter 'get ' : 
+    System.Collections.Generic.KeyValuePair`2[System.String,System.Object] Item [Int32] 'get ' : 
+    Int32 Count 'get ' : 
+  Methods:
+    get_Formatter(): PrivateScope, Assembly, HideBySig, SpecialName
+    get_Item(Int32): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Count(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    GetEnumerator(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+Class Microsoft.Extensions.Logging.Internal.LogValuesFormatter: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String OriginalFormat 'get set' : 
+    System.Collections.Generic.List`1[System.String] ValueNames 'get ' : 
+  Methods:
+    get_OriginalFormat(): PrivateScope, Public, HideBySig, SpecialName
+    get_ValueNames(): PrivateScope, Public, HideBySig, SpecialName
+    Format(Object[]): PrivateScope, Public, HideBySig
+    GetValue(Object[], Int32): PrivateScope, Public, HideBySig
+    GetValues(Object[]): PrivateScope, Public, HideBySig

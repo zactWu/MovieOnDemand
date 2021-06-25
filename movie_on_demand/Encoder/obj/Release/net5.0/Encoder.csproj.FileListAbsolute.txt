@@ -1,0 +1,12 @@
+D:\code\csharp\movie_on_demand\movie_on_demand\Encoder\bin\Release\net5.0\Encoder.deps.json
+D:\code\csharp\movie_on_demand\movie_on_demand\Encoder\bin\Release\net5.0\Encoder.dll
+D:\code\csharp\movie_on_demand\movie_on_demand\Encoder\bin\Release\net5.0\ref\Encoder.dll
+D:\code\csharp\movie_on_demand\movie_on_demand\Encoder\bin\Release\net5.0\Encoder.pdb
+D:\code\csharp\movie_on_demand\movie_on_demand\Encoder\obj\Release\net5.0\Encoder.csprojAssemblyReference.cache
+D:\code\csharp\movie_on_demand\movie_on_demand\Encoder\obj\Release\net5.0\Encoder.GeneratedMSBuildEditorConfig.editorconfig
+D:\code\csharp\movie_on_demand\movie_on_demand\Encoder\obj\Release\net5.0\Encoder.AssemblyInfoInputs.cache
+D:\code\csharp\movie_on_demand\movie_on_demand\Encoder\obj\Release\net5.0\Encoder.AssemblyInfo.cs
+D:\code\csharp\movie_on_demand\movie_on_demand\Encoder\obj\Release\net5.0\Encoder.csproj.CoreCompileInputs.cache
+D:\code\csharp\movie_on_demand\movie_on_demand\Encoder\obj\Release\net5.0\Encoder.dll
+D:\code\csharp\movie_on_demand\movie_on_demand\Encoder\obj\Release\net5.0\ref\Encoder.dll
+D:\code\csharp\movie_on_demand\movie_on_demand\Encoder\obj\Release\net5.0\Encoder.pdb

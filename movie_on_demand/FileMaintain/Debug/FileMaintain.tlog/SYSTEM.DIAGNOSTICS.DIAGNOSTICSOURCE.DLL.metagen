@@ -1,0 +1,68 @@
+  System.Diagnostics.DiagnosticSource.xml - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly System.Diagnostics.DiagnosticSource, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51: 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class System.Diagnostics.DiagnosticSource: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+  Methods:
+    Write(String, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    IsEnabled(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    IsEnabled(String, Object, Object(Optional, HasDefault)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    StartActivity(Activity, Object): PrivateScope, Public, HideBySig
+    StopActivity(Activity, Object): PrivateScope, Public, HideBySig
+Class System.Diagnostics.DiagnosticListener: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Diagnostics.DiagnosticSource
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IObservable`1[System.Collections.Generic.KeyValuePair`2[System.String,System.Object]]
+    System.IDisposable
+  Properties:
+    System.IObservable`1[System.Diagnostics.DiagnosticListener] AllListeners 'get ' : 
+    System.String Name 'get set' : 
+  Methods:
+    get_AllListeners(): PrivateScope, Public, Static, HideBySig, SpecialName
+    Subscribe(IObserver`1, Predicate`1): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Subscribe(IObserver`1, Func`4): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Subscribe(IObserver`1): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Dispose(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    get_Name(): PrivateScope, Public, HideBySig, SpecialName
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    IsEnabled(): PrivateScope, Public, HideBySig
+    IsEnabled(String): PrivateScope, Public, Virtual, HideBySig
+    IsEnabled(String, Object, Object(Optional, HasDefault)): PrivateScope, Public, Virtual, HideBySig
+    Write(String, Object): PrivateScope, Public, Virtual, HideBySig
+Class System.Diagnostics.Activity: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String OperationName 'get ' : 
+    System.String Id 'get set' : 
+    System.DateTime StartTimeUtc 'get set' : 
+    System.Diagnostics.Activity Parent 'get set' : 
+    System.String ParentId 'get set' : 
+    System.String RootId 'get ' : 
+    System.Collections.Generic.IEnumerable`1[System.Collections.Generic.KeyValuePair`2[System.String,System.String]] Tags 'get ' : 
+    System.Collections.Generic.IEnumerable`1[System.Collections.Generic.KeyValuePair`2[System.String,System.String]] Baggage 'get ' : 
+    System.TimeSpan Duration 'get set' : 
+    System.Diagnostics.Activity Current 'get set' : 
+  Methods:
+    get_OperationName(): PrivateScope, Public, HideBySig, SpecialName
+    get_Id(): PrivateScope, Public, HideBySig, SpecialName
+    get_StartTimeUtc(): PrivateScope, Public, HideBySig, SpecialName
+    get_Parent(): PrivateScope, Public, HideBySig, SpecialName
+    get_ParentId(): PrivateScope, Public, HideBySig, SpecialName
+    get_RootId(): PrivateScope, Public, HideBySig, SpecialName
+    get_Tags(): PrivateScope, Public, HideBySig, SpecialName
+    get_Baggage(): PrivateScope, Public, HideBySig, SpecialName
+    GetBaggageItem(String): PrivateScope, Public, HideBySig
+    AddTag(String, String): PrivateScope, Public, HideBySig
+    AddBaggage(String, String): PrivateScope, Public, HideBySig
+    SetParentId(String): PrivateScope, Public, HideBySig
+    SetStartTime(DateTime): PrivateScope, Public, HideBySig
+    SetEndTime(DateTime): PrivateScope, Public, HideBySig
+    get_Duration(): PrivateScope, Public, HideBySig, SpecialName
+    Start(): PrivateScope, Public, HideBySig
+    Stop(): PrivateScope, Public, HideBySig
+    get_Current(): PrivateScope, Public, Static, HideBySig, SpecialName

@@ -1,0 +1,68 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly Microsoft.DotNet.PlatformAbstractions, Version=2.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60: 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Runtime.InteropServices.RuntimeInformation, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Class Microsoft.DotNet.PlatformAbstractions.ApplicationEnvironment: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Properties:
+    System.String ApplicationBasePath 'get ' : 
+  Methods:
+    get_ApplicationBasePath(): PrivateScope, Public, Static, HideBySig, SpecialName
+Struct Microsoft.DotNet.PlatformAbstractions.HashCodeCombiner: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Properties:
+    Int32 CombinedHash 'get ' : 
+  Methods:
+    get_CombinedHash(): PrivateScope, Public, HideBySig, SpecialName
+    Add(Int32): PrivateScope, Public, HideBySig
+    Add(String): PrivateScope, Public, HideBySig
+    Add(Object): PrivateScope, Public, HideBySig
+    Add(TValue, IEqualityComparer`1): PrivateScope, Public, HideBySig
+    Start(): PrivateScope, Public, Static, HideBySig
+Struct Microsoft.DotNet.PlatformAbstractions.Platform: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    Microsoft.DotNet.PlatformAbstractions.Platform Unknown = 0 : Public, Static, Literal, HasDefault
+    Microsoft.DotNet.PlatformAbstractions.Platform Windows = 1 : Public, Static, Literal, HasDefault
+    Microsoft.DotNet.PlatformAbstractions.Platform Linux = 2 : Public, Static, Literal, HasDefault
+    Microsoft.DotNet.PlatformAbstractions.Platform Darwin = 3 : Public, Static, Literal, HasDefault
+    Microsoft.DotNet.PlatformAbstractions.Platform FreeBSD = 4 : Public, Static, Literal, HasDefault
+Class Microsoft.DotNet.PlatformAbstractions.RuntimeEnvironment: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Properties:
+    Microsoft.DotNet.PlatformAbstractions.Platform OperatingSystemPlatform 'get ' : 
+    System.String OperatingSystemVersion 'get ' : 
+    System.String OperatingSystem 'get ' : 
+    System.String RuntimeArchitecture 'get ' : 
+  Methods:
+    get_OperatingSystemPlatform(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_OperatingSystemVersion(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_OperatingSystem(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_RuntimeArchitecture(): PrivateScope, Public, Static, HideBySig, SpecialName
+    GetRuntimeIdentifier(): PrivateScope, Public, Static, HideBySig
+Class Microsoft.DotNet.PlatformAbstractions.Native.NativeMethods: AutoLayout, AnsiClass, Class, Abstract, Sealed, BeforeFieldInit
+Class Microsoft.DotNet.PlatformAbstractions.Native.PlatformApis: AutoLayout, AnsiClass, Class, Abstract, Sealed, BeforeFieldInit
+  Methods:
+    GetOSName(): PrivateScope, Public, Static, HideBySig
+    GetOSVersion(): PrivateScope, Public, Static, HideBySig
+    GetOSPlatform(): PrivateScope, Public, Static, HideBySig
+Class Microsoft.DotNet.PlatformAbstractions.Native.NativeMethods+Darwin: AutoLayout, AnsiClass, Class, NestedPublic, Abstract, Sealed, BeforeFieldInit
+  Methods:
+    GetKernelRelease(): PrivateScope, Public, Static, HideBySig
+Class Microsoft.DotNet.PlatformAbstractions.Native.NativeMethods+Unix: AutoLayout, AnsiClass, Class, NestedPublic, Abstract, Sealed, BeforeFieldInit
+  Methods:
+    GetUname(): PrivateScope, Public, Static, HideBySig
+Class Microsoft.DotNet.PlatformAbstractions.Native.NativeMethods+Windows: AutoLayout, AnsiClass, Class, NestedPublic, Abstract, Sealed, BeforeFieldInit
+  Methods:
+    RtlGetVersion(): PrivateScope, Assembly, Static, HideBySig
+Struct Microsoft.DotNet.PlatformAbstractions.Native.NativeMethods+Windows+RTL_OSVERSIONINFOEX: AutoLayout, AnsiClass, Class, NestedAssembly, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    UInt32 dwOSVersionInfoSize : Assembly
+    UInt32 dwMajorVersion : Assembly
+    UInt32 dwMinorVersion : Assembly
+    UInt32 dwBuildNumber : Assembly
+    UInt32 dwPlatformId : Assembly
+    System.String szCSDVersion : Assembly, HasFieldMarshal

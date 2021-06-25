@@ -1,0 +1,3 @@
+D:\code\csharp\movie_on_demand\movie_on_demand\Encoder\bin\Release\net5.0\publish\Encoder.dll
+D:\code\csharp\movie_on_demand\movie_on_demand\Encoder\bin\Release\net5.0\publish\Encoder.deps.json
+D:\code\csharp\movie_on_demand\movie_on_demand\Encoder\bin\Release\net5.0\publish\Encoder.pdb

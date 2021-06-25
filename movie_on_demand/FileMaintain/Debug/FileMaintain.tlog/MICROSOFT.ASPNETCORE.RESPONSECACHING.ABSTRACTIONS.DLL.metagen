@@ -1,0 +1,11 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly Microsoft.AspNetCore.ResponseCaching.Abstractions, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60: 
+	hash=SHA1, flags=PublicKey
+Assembly netstandard, Version=2.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51: 
+	hash=None, flags=None
+Interface Microsoft.AspNetCore.ResponseCaching.IResponseCachingFeature: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Properties:
+    System.String[] VaryByQueryKeys 'get set' : 
+  Methods:
+    get_VaryByQueryKeys(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_VaryByQueryKeys(String[]): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName

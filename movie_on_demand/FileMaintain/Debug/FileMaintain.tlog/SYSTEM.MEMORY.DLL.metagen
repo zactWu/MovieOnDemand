@@ -1,0 +1,514 @@
+  FxResources.System.Memory.SR.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly System.Memory, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51: 
+	hash=SHA1, flags=PublicKey
+Assembly netstandard, Version=2.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51: 
+	hash=None, flags=None
+Assembly System.Numerics.Vectors, Version=4.1.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Runtime.CompilerServices.Unsafe, Version=4.0.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Buffers, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51: 
+	hash=None, flags=None
+Struct System.SequencePosition: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+    Void .ctor(System.Object, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IEquatable`1[System.SequencePosition]
+  Methods:
+    GetObject(): PrivateScope, Public, HideBySig
+    GetInteger(): PrivateScope, Public, HideBySig
+    Equals(SequencePosition): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+Struct System.Memory`1[T]: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  Type parameter: T
+  :System.ValueType
+    Void .ctor(T[]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(T[], Int32, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Memory`1[T] Empty 'get ' : 
+    Int32 Length 'get ' : 
+    Boolean IsEmpty 'get ' : 
+    System.Span`1[T] Span 'get ' : 
+  Methods:
+    op_Implicit(T[]): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Implicit(ArraySegment`1): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Implicit(Memory`1): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Empty(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Length(): PrivateScope, Public, HideBySig, SpecialName
+    get_IsEmpty(): PrivateScope, Public, HideBySig, SpecialName
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    Slice(Int32): PrivateScope, Public, HideBySig
+    Slice(Int32, Int32): PrivateScope, Public, HideBySig
+    get_Span(): PrivateScope, Public, HideBySig, SpecialName
+    CopyTo(Memory`1): PrivateScope, Public, HideBySig
+    TryCopyTo(Memory`1): PrivateScope, Public, HideBySig
+    Pin(): PrivateScope, Public, HideBySig
+    ToArray(): PrivateScope, Public, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    Equals(Memory`1): PrivateScope, Public, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+Class System.MemoryExtensions: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Methods:
+    Overlaps(ReadOnlySpan`1, ReadOnlySpan`1, Int32&(Out)): PrivateScope, Public, Static, HideBySig
+    BinarySearch(Span`1, IComparable`1): PrivateScope, Public, Static, HideBySig
+    BinarySearch(Span`1, TComparable): PrivateScope, Public, Static, HideBySig
+    BinarySearch(Span`1, T, TComparer): PrivateScope, Public, Static, HideBySig
+    BinarySearch(ReadOnlySpan`1, IComparable`1): PrivateScope, Public, Static, HideBySig
+    BinarySearch(ReadOnlySpan`1, TComparable): PrivateScope, Public, Static, HideBySig
+    BinarySearch(ReadOnlySpan`1, T, TComparer): PrivateScope, Public, Static, HideBySig
+    AsSpan(T[], Int32): PrivateScope, Public, Static, HideBySig
+    Contains(ReadOnlySpan`1, ReadOnlySpan`1, StringComparison): PrivateScope, Public, Static, HideBySig
+    Equals(ReadOnlySpan`1, ReadOnlySpan`1, StringComparison): PrivateScope, Public, Static, HideBySig
+    CompareTo(ReadOnlySpan`1, ReadOnlySpan`1, StringComparison): PrivateScope, Public, Static, HideBySig
+    IndexOf(ReadOnlySpan`1, ReadOnlySpan`1, StringComparison): PrivateScope, Public, Static, HideBySig
+    ToLower(ReadOnlySpan`1, Span`1, CultureInfo): PrivateScope, Public, Static, HideBySig
+    ToLowerInvariant(ReadOnlySpan`1, Span`1): PrivateScope, Public, Static, HideBySig
+    ToUpper(ReadOnlySpan`1, Span`1, CultureInfo): PrivateScope, Public, Static, HideBySig
+    ToUpperInvariant(ReadOnlySpan`1, Span`1): PrivateScope, Public, Static, HideBySig
+    EndsWith(ReadOnlySpan`1, ReadOnlySpan`1, StringComparison): PrivateScope, Public, Static, HideBySig
+    StartsWith(ReadOnlySpan`1, ReadOnlySpan`1, StringComparison): PrivateScope, Public, Static, HideBySig
+    AsSpan(String): PrivateScope, Public, Static, HideBySig
+    AsSpan(String, Int32): PrivateScope, Public, Static, HideBySig
+    AsSpan(String, Int32, Int32): PrivateScope, Public, Static, HideBySig
+    AsMemory(String): PrivateScope, Public, Static, HideBySig
+    AsMemory(String, Int32): PrivateScope, Public, Static, HideBySig
+    AsMemory(String, Int32, Int32): PrivateScope, Public, Static, HideBySig
+    Trim(ReadOnlySpan`1): PrivateScope, Public, Static, HideBySig
+    TrimStart(ReadOnlySpan`1): PrivateScope, Public, Static, HideBySig
+    TrimEnd(ReadOnlySpan`1): PrivateScope, Public, Static, HideBySig
+    Trim(ReadOnlySpan`1, Char): PrivateScope, Public, Static, HideBySig
+    TrimStart(ReadOnlySpan`1, Char): PrivateScope, Public, Static, HideBySig
+    TrimEnd(ReadOnlySpan`1, Char): PrivateScope, Public, Static, HideBySig
+    Trim(ReadOnlySpan`1, ReadOnlySpan`1): PrivateScope, Public, Static, HideBySig
+    TrimStart(ReadOnlySpan`1, ReadOnlySpan`1): PrivateScope, Public, Static, HideBySig
+    TrimEnd(ReadOnlySpan`1, ReadOnlySpan`1): PrivateScope, Public, Static, HideBySig
+    IsWhiteSpace(ReadOnlySpan`1): PrivateScope, Public, Static, HideBySig
+    IndexOf(Span`1, T): PrivateScope, Public, Static, HideBySig
+    IndexOf(Span`1, ReadOnlySpan`1): PrivateScope, Public, Static, HideBySig
+    LastIndexOf(Span`1, T): PrivateScope, Public, Static, HideBySig
+    LastIndexOf(Span`1, ReadOnlySpan`1): PrivateScope, Public, Static, HideBySig
+    SequenceEqual(Span`1, ReadOnlySpan`1): PrivateScope, Public, Static, HideBySig
+    SequenceCompareTo(Span`1, ReadOnlySpan`1): PrivateScope, Public, Static, HideBySig
+    IndexOf(ReadOnlySpan`1, T): PrivateScope, Public, Static, HideBySig
+    IndexOf(ReadOnlySpan`1, ReadOnlySpan`1): PrivateScope, Public, Static, HideBySig
+    LastIndexOf(ReadOnlySpan`1, T): PrivateScope, Public, Static, HideBySig
+    LastIndexOf(ReadOnlySpan`1, ReadOnlySpan`1): PrivateScope, Public, Static, HideBySig
+    IndexOfAny(Span`1, T, T): PrivateScope, Public, Static, HideBySig
+    IndexOfAny(Span`1, T, T, T): PrivateScope, Public, Static, HideBySig
+    IndexOfAny(Span`1, ReadOnlySpan`1): PrivateScope, Public, Static, HideBySig
+    IndexOfAny(ReadOnlySpan`1, T, T): PrivateScope, Public, Static, HideBySig
+    IndexOfAny(ReadOnlySpan`1, T, T, T): PrivateScope, Public, Static, HideBySig
+    IndexOfAny(ReadOnlySpan`1, ReadOnlySpan`1): PrivateScope, Public, Static, HideBySig
+    LastIndexOfAny(Span`1, T, T): PrivateScope, Public, Static, HideBySig
+    LastIndexOfAny(Span`1, T, T, T): PrivateScope, Public, Static, HideBySig
+    LastIndexOfAny(Span`1, ReadOnlySpan`1): PrivateScope, Public, Static, HideBySig
+    LastIndexOfAny(ReadOnlySpan`1, T, T): PrivateScope, Public, Static, HideBySig
+    LastIndexOfAny(ReadOnlySpan`1, T, T, T): PrivateScope, Public, Static, HideBySig
+    LastIndexOfAny(ReadOnlySpan`1, ReadOnlySpan`1): PrivateScope, Public, Static, HideBySig
+    SequenceEqual(ReadOnlySpan`1, ReadOnlySpan`1): PrivateScope, Public, Static, HideBySig
+    SequenceCompareTo(ReadOnlySpan`1, ReadOnlySpan`1): PrivateScope, Public, Static, HideBySig
+    StartsWith(Span`1, ReadOnlySpan`1): PrivateScope, Public, Static, HideBySig
+    StartsWith(ReadOnlySpan`1, ReadOnlySpan`1): PrivateScope, Public, Static, HideBySig
+    EndsWith(Span`1, ReadOnlySpan`1): PrivateScope, Public, Static, HideBySig
+    EndsWith(ReadOnlySpan`1, ReadOnlySpan`1): PrivateScope, Public, Static, HideBySig
+    Reverse(Span`1): PrivateScope, Public, Static, HideBySig
+    AsSpan(T[]): PrivateScope, Public, Static, HideBySig
+    AsSpan(T[], Int32, Int32): PrivateScope, Public, Static, HideBySig
+    AsSpan(ArraySegment`1): PrivateScope, Public, Static, HideBySig
+    AsSpan(ArraySegment`1, Int32): PrivateScope, Public, Static, HideBySig
+    AsSpan(ArraySegment`1, Int32, Int32): PrivateScope, Public, Static, HideBySig
+    AsMemory(T[]): PrivateScope, Public, Static, HideBySig
+    AsMemory(T[], Int32): PrivateScope, Public, Static, HideBySig
+    AsMemory(T[], Int32, Int32): PrivateScope, Public, Static, HideBySig
+    AsMemory(ArraySegment`1): PrivateScope, Public, Static, HideBySig
+    AsMemory(ArraySegment`1, Int32): PrivateScope, Public, Static, HideBySig
+    AsMemory(ArraySegment`1, Int32, Int32): PrivateScope, Public, Static, HideBySig
+    CopyTo(T[], Span`1): PrivateScope, Public, Static, HideBySig
+    CopyTo(T[], Memory`1): PrivateScope, Public, Static, HideBySig
+    Overlaps(Span`1, ReadOnlySpan`1): PrivateScope, Public, Static, HideBySig
+    Overlaps(Span`1, ReadOnlySpan`1, Int32&(Out)): PrivateScope, Public, Static, HideBySig
+    Overlaps(ReadOnlySpan`1, ReadOnlySpan`1): PrivateScope, Public, Static, HideBySig
+Struct System.ReadOnlyMemory`1[T]: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  Type parameter: T
+  :System.ValueType
+    Void .ctor(T[]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(T[], Int32, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.ReadOnlyMemory`1[T] Empty 'get ' : 
+    Int32 Length 'get ' : 
+    Boolean IsEmpty 'get ' : 
+    System.ReadOnlySpan`1[T] Span 'get ' : 
+  Methods:
+    op_Implicit(T[]): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Implicit(ArraySegment`1): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Empty(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Length(): PrivateScope, Public, HideBySig, SpecialName
+    get_IsEmpty(): PrivateScope, Public, HideBySig, SpecialName
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    Slice(Int32): PrivateScope, Public, HideBySig
+    Slice(Int32, Int32): PrivateScope, Public, HideBySig
+    get_Span(): PrivateScope, Public, HideBySig, SpecialName
+    CopyTo(Memory`1): PrivateScope, Public, HideBySig
+    TryCopyTo(Memory`1): PrivateScope, Public, HideBySig
+    Pin(): PrivateScope, Public, HideBySig
+    ToArray(): PrivateScope, Public, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    Equals(ReadOnlyMemory`1): PrivateScope, Public, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+Struct System.ReadOnlySpan`1[T]: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit (Obsolete)
+  Type parameter: T
+  :System.ValueType
+    Void .ctor(T[]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(T[], Int32, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Void*, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Int32 Length 'get ' : 
+    Boolean IsEmpty 'get ' : 
+    System.ReadOnlySpan`1[T] Empty 'get ' : 
+    T& Item [Int32] 'get ' InAttribute : 
+  Methods:
+    get_Length(): PrivateScope, Public, HideBySig, SpecialName
+    get_IsEmpty(): PrivateScope, Public, HideBySig, SpecialName
+    op_Inequality(ReadOnlySpan`1, ReadOnlySpan`1): PrivateScope, Public, Static, HideBySig, SpecialName
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig (Obsolete)
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig (Obsolete)
+    op_Implicit(T[]): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Implicit(ArraySegment`1): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Empty(): PrivateScope, Public, Static, HideBySig, SpecialName
+    GetEnumerator(): PrivateScope, Public, HideBySig
+    get_Item(Int32): PrivateScope, Public, HideBySig, SpecialName
+    GetPinnableReference(): PrivateScope, Public, HideBySig
+    CopyTo(Span`1): PrivateScope, Public, HideBySig
+    TryCopyTo(Span`1): PrivateScope, Public, HideBySig
+    op_Equality(ReadOnlySpan`1, ReadOnlySpan`1): PrivateScope, Public, Static, HideBySig, SpecialName
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    Slice(Int32): PrivateScope, Public, HideBySig
+    Slice(Int32, Int32): PrivateScope, Public, HideBySig
+    ToArray(): PrivateScope, Public, HideBySig
+Struct System.Span`1[T]: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit (Obsolete)
+  Type parameter: T
+  :System.ValueType
+    Void .ctor(T[]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(T[], Int32, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Void*, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Int32 Length 'get ' : 
+    Boolean IsEmpty 'get ' : 
+    System.Span`1[T] Empty 'get ' : 
+    T& Item [Int32] 'get ' : 
+  Methods:
+    get_Length(): PrivateScope, Public, HideBySig, SpecialName
+    get_IsEmpty(): PrivateScope, Public, HideBySig, SpecialName
+    op_Inequality(Span`1, Span`1): PrivateScope, Public, Static, HideBySig, SpecialName
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig (Obsolete)
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig (Obsolete)
+    op_Implicit(T[]): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Implicit(ArraySegment`1): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Empty(): PrivateScope, Public, Static, HideBySig, SpecialName
+    GetEnumerator(): PrivateScope, Public, HideBySig
+    get_Item(Int32): PrivateScope, Public, HideBySig, SpecialName
+    GetPinnableReference(): PrivateScope, Public, HideBySig
+    Clear(): PrivateScope, Public, HideBySig
+    Fill(T): PrivateScope, Public, HideBySig
+    CopyTo(Span`1): PrivateScope, Public, HideBySig
+    TryCopyTo(Span`1): PrivateScope, Public, HideBySig
+    op_Equality(Span`1, Span`1): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Implicit(Span`1): PrivateScope, Public, Static, HideBySig, SpecialName
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    Slice(Int32): PrivateScope, Public, HideBySig
+    Slice(Int32, Int32): PrivateScope, Public, HideBySig
+    ToArray(): PrivateScope, Public, HideBySig
+Class System.Runtime.InteropServices.SequenceMarshal: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Methods:
+    TryGetReadOnlySequenceSegment(ReadOnlySequence`1, ReadOnlySequenceSegment`1&(Out), Int32&(Out), ReadOnlySequenceSegment`1&(Out), Int32&(Out)): PrivateScope, Public, Static, HideBySig
+    TryGetArray(ReadOnlySequence`1, ArraySegment`1&(Out)): PrivateScope, Public, Static, HideBySig
+    TryGetReadOnlyMemory(ReadOnlySequence`1, ReadOnlyMemory`1&(Out)): PrivateScope, Public, Static, HideBySig
+Class System.Runtime.InteropServices.MemoryMarshal: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Methods:
+    TryGetArray(ReadOnlyMemory`1, ArraySegment`1&(Out)): PrivateScope, Public, Static, HideBySig
+    TryGetMemoryManager(ReadOnlyMemory`1, TManager&(Out)): PrivateScope, Public, Static, HideBySig
+    TryGetMemoryManager(ReadOnlyMemory`1, TManager&(Out), Int32&(Out), Int32&(Out)): PrivateScope, Public, Static, HideBySig
+    ToEnumerable(ReadOnlyMemory`1): PrivateScope, Public, Static, HideBySig
+    TryGetString(ReadOnlyMemory`1, String&(Out), Int32&(Out), Int32&(Out)): PrivateScope, Public, Static, HideBySig
+    Read(ReadOnlySpan`1): PrivateScope, Public, Static, HideBySig
+    TryRead(ReadOnlySpan`1, T&(Out)): PrivateScope, Public, Static, HideBySig
+    Write(Span`1, T&): PrivateScope, Public, Static, HideBySig
+    TryWrite(Span`1, T&): PrivateScope, Public, Static, HideBySig
+    CreateFromPinnedArray(T[], Int32, Int32): PrivateScope, Public, Static, HideBySig
+    AsBytes(Span`1): PrivateScope, Public, Static, HideBySig
+    AsBytes(ReadOnlySpan`1): PrivateScope, Public, Static, HideBySig
+    AsMemory(ReadOnlyMemory`1): PrivateScope, Public, Static, HideBySig
+    GetReference(Span`1): PrivateScope, Public, Static, HideBySig
+    GetReference(ReadOnlySpan`1): PrivateScope, Public, Static, HideBySig
+    Cast(Span`1): PrivateScope, Public, Static, HideBySig
+    Cast(ReadOnlySpan`1): PrivateScope, Public, Static, HideBySig
+Class System.Buffers.BuffersExtensions: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Methods:
+    PositionOf(ReadOnlySequence`1&(In), T): PrivateScope, Public, Static, HideBySig
+    CopyTo(ReadOnlySequence`1&(In), Span`1): PrivateScope, Public, Static, HideBySig
+    ToArray(ReadOnlySequence`1&(In)): PrivateScope, Public, Static, HideBySig
+    Write(IBufferWriter`1, ReadOnlySpan`1): PrivateScope, Public, Static, HideBySig
+Interface System.Buffers.IBufferWriter`1[T]: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Type parameter: T
+  Methods:
+    Advance(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    GetMemory(Int32(Optional, HasDefault)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    GetSpan(Int32(Optional, HasDefault)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Class System.Buffers.MemoryPool`1[T]: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+  Type parameter: T
+  Interfaces:
+    System.IDisposable
+  Properties:
+    System.Buffers.MemoryPool`1[T] Shared 'get ' : 
+    Int32 MaxBufferSize 'get ' : 
+  Methods:
+    get_Shared(): PrivateScope, Public, Static, HideBySig, SpecialName
+    Rent(Int32(Optional, HasDefault)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    get_MaxBufferSize(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+Struct System.Buffers.OperationStatus: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    System.Buffers.OperationStatus Done = 0 : Public, Static, Literal, HasDefault
+    System.Buffers.OperationStatus DestinationTooSmall = 1 : Public, Static, Literal, HasDefault
+    System.Buffers.OperationStatus NeedMoreData = 2 : Public, Static, Literal, HasDefault
+    System.Buffers.OperationStatus InvalidData = 3 : Public, Static, Literal, HasDefault
+Struct System.Buffers.ReadOnlySequence`1[T]: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  Type parameter: T
+  :System.ValueType
+    Void .ctor(System.Buffers.ReadOnlySequenceSegment`1[T], Int32, System.Buffers.ReadOnlySequenceSegment`1[T], Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(T[]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(T[], Int32, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.ReadOnlyMemory`1[T]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Buffers.ReadOnlySequence`1[T] Empty : Public, Static, InitOnly
+  Properties:
+    Int64 Length 'get ' : 
+    Boolean IsEmpty 'get ' : 
+    Boolean IsSingleSegment 'get ' : 
+    System.ReadOnlyMemory`1[T] First 'get ' : 
+    System.SequencePosition Start 'get ' : 
+    System.SequencePosition End 'get ' : 
+  Methods:
+    get_Length(): PrivateScope, Public, HideBySig, SpecialName
+    get_IsEmpty(): PrivateScope, Public, HideBySig, SpecialName
+    get_IsSingleSegment(): PrivateScope, Public, HideBySig, SpecialName
+    get_First(): PrivateScope, Public, HideBySig, SpecialName
+    get_Start(): PrivateScope, Public, HideBySig, SpecialName
+    get_End(): PrivateScope, Public, HideBySig, SpecialName
+    Slice(Int64, Int64): PrivateScope, Public, HideBySig
+    Slice(Int64, SequencePosition): PrivateScope, Public, HideBySig
+    Slice(SequencePosition, Int64): PrivateScope, Public, HideBySig
+    Slice(Int32, Int32): PrivateScope, Public, HideBySig
+    Slice(Int32, SequencePosition): PrivateScope, Public, HideBySig
+    Slice(SequencePosition, Int32): PrivateScope, Public, HideBySig
+    Slice(SequencePosition, SequencePosition): PrivateScope, Public, HideBySig
+    Slice(SequencePosition): PrivateScope, Public, HideBySig
+    Slice(Int64): PrivateScope, Public, HideBySig
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    GetEnumerator(): PrivateScope, Public, HideBySig
+    GetPosition(Int64): PrivateScope, Public, HideBySig
+    GetPosition(Int64, SequencePosition): PrivateScope, Public, HideBySig
+    TryGet(SequencePosition&, ReadOnlyMemory`1&(Out), Boolean(Optional, HasDefault)): PrivateScope, Public, HideBySig
+Class System.Buffers.ReadOnlySequenceSegment`1[T]: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+  Type parameter: T
+  Properties:
+    System.ReadOnlyMemory`1[T] Memory 'get set' : 
+    System.Buffers.ReadOnlySequenceSegment`1[T] Next 'get set' : 
+    Int64 RunningIndex 'get set' : 
+  Methods:
+    get_Memory(): PrivateScope, Public, HideBySig, SpecialName
+    get_Next(): PrivateScope, Public, HideBySig, SpecialName
+    get_RunningIndex(): PrivateScope, Public, HideBySig, SpecialName
+Struct System.Buffers.StandardFormat: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+    Void .ctor(Char, Byte): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IEquatable`1[System.Buffers.StandardFormat]
+  Fields:
+    Byte NoPrecision = 255 : Public, Static, Literal, HasDefault
+    Byte MaxPrecision = 99 : Public, Static, Literal, HasDefault
+  Properties:
+    Char Symbol 'get ' : 
+    Byte Precision 'get ' : 
+    Boolean HasPrecision 'get ' : 
+    Boolean IsDefault 'get ' : 
+  Methods:
+    get_Symbol(): PrivateScope, Public, HideBySig, SpecialName
+    get_Precision(): PrivateScope, Public, HideBySig, SpecialName
+    get_HasPrecision(): PrivateScope, Public, HideBySig, SpecialName
+    get_IsDefault(): PrivateScope, Public, HideBySig, SpecialName
+    op_Implicit(Char): PrivateScope, Public, Static, HideBySig, SpecialName
+    Parse(ReadOnlySpan`1): PrivateScope, Public, Static, HideBySig
+    Parse(String): PrivateScope, Public, Static, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    Equals(StandardFormat): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    op_Equality(StandardFormat, StandardFormat): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Inequality(StandardFormat, StandardFormat): PrivateScope, Public, Static, HideBySig, SpecialName
+Interface System.Buffers.IPinnable: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Methods:
+    Pin(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Unpin(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Interface System.Buffers.IMemoryOwner`1[T]: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Type parameter: T
+  Interfaces:
+    System.IDisposable
+  Properties:
+    System.Memory`1[T] Memory 'get ' : 
+  Methods:
+    get_Memory(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+Struct System.Buffers.MemoryHandle: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+    Void .ctor(Void*, System.Runtime.InteropServices.GCHandle, System.Buffers.IPinnable): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Properties:
+    Void* Pointer 'get ' : 
+  Methods:
+    get_Pointer(): PrivateScope, Public, HideBySig, SpecialName
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+Class System.Buffers.MemoryManager`1[T]: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+  Type parameter: T
+  Interfaces:
+    System.Buffers.IMemoryOwner`1[T]
+    System.IDisposable
+    System.Buffers.IPinnable
+  Properties:
+    System.Memory`1[T] Memory 'get ' : 
+  Methods:
+    get_Memory(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    GetSpan(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Pin(Int32(Optional, HasDefault)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Unpin(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Class System.Buffers.Text.Base64: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Methods:
+    DecodeFromUtf8(ReadOnlySpan`1, Span`1, Int32&(Out), Int32&(Out), Boolean(Optional, HasDefault)): PrivateScope, Public, Static, HideBySig
+    GetMaxDecodedFromUtf8Length(Int32): PrivateScope, Public, Static, HideBySig
+    DecodeFromUtf8InPlace(Span`1, Int32&(Out)): PrivateScope, Public, Static, HideBySig
+    EncodeToUtf8(ReadOnlySpan`1, Span`1, Int32&(Out), Int32&(Out), Boolean(Optional, HasDefault)): PrivateScope, Public, Static, HideBySig
+    GetMaxEncodedToUtf8Length(Int32): PrivateScope, Public, Static, HideBySig
+    EncodeToUtf8InPlace(Span`1, Int32, Int32&(Out)): PrivateScope, Public, Static, HideBySig
+Class System.Buffers.Text.Utf8Formatter: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Methods:
+    TryFormat(Boolean, Span`1, Int32&(Out), StandardFormat(Optional, HasDefault)): PrivateScope, Public, Static, HideBySig
+    TryFormat(DateTimeOffset, Span`1, Int32&(Out), StandardFormat(Optional, HasDefault)): PrivateScope, Public, Static, HideBySig
+    TryFormat(DateTime, Span`1, Int32&(Out), StandardFormat(Optional, HasDefault)): PrivateScope, Public, Static, HideBySig
+    TryFormat(Decimal, Span`1, Int32&(Out), StandardFormat(Optional, HasDefault)): PrivateScope, Public, Static, HideBySig
+    TryFormat(Double, Span`1, Int32&(Out), StandardFormat(Optional, HasDefault)): PrivateScope, Public, Static, HideBySig
+    TryFormat(Single, Span`1, Int32&(Out), StandardFormat(Optional, HasDefault)): PrivateScope, Public, Static, HideBySig
+    TryFormat(Guid, Span`1, Int32&(Out), StandardFormat(Optional, HasDefault)): PrivateScope, Public, Static, HideBySig
+    TryFormat(Byte, Span`1, Int32&(Out), StandardFormat(Optional, HasDefault)): PrivateScope, Public, Static, HideBySig
+    TryFormat(SByte, Span`1, Int32&(Out), StandardFormat(Optional, HasDefault)): PrivateScope, Public, Static, HideBySig
+    TryFormat(UInt16, Span`1, Int32&(Out), StandardFormat(Optional, HasDefault)): PrivateScope, Public, Static, HideBySig
+    TryFormat(Int16, Span`1, Int32&(Out), StandardFormat(Optional, HasDefault)): PrivateScope, Public, Static, HideBySig
+    TryFormat(UInt32, Span`1, Int32&(Out), StandardFormat(Optional, HasDefault)): PrivateScope, Public, Static, HideBySig
+    TryFormat(Int32, Span`1, Int32&(Out), StandardFormat(Optional, HasDefault)): PrivateScope, Public, Static, HideBySig
+    TryFormat(UInt64, Span`1, Int32&(Out), StandardFormat(Optional, HasDefault)): PrivateScope, Public, Static, HideBySig
+    TryFormat(Int64, Span`1, Int32&(Out), StandardFormat(Optional, HasDefault)): PrivateScope, Public, Static, HideBySig
+    TryFormat(TimeSpan, Span`1, Int32&(Out), StandardFormat(Optional, HasDefault)): PrivateScope, Public, Static, HideBySig
+Class System.Buffers.Text.Utf8Parser: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Methods:
+    TryParse(ReadOnlySpan`1, Boolean&(Out), Int32&(Out), Char(Optional, HasDefault)): PrivateScope, Public, Static, HideBySig
+    TryParse(ReadOnlySpan`1, DateTime&(Out), Int32&(Out), Char(Optional, HasDefault)): PrivateScope, Public, Static, HideBySig
+    TryParse(ReadOnlySpan`1, DateTimeOffset&(Out), Int32&(Out), Char(Optional, HasDefault)): PrivateScope, Public, Static, HideBySig
+    TryParse(ReadOnlySpan`1, Decimal&(Out), Int32&(Out), Char(Optional, HasDefault)): PrivateScope, Public, Static, HideBySig
+    TryParse(ReadOnlySpan`1, Single&(Out), Int32&(Out), Char(Optional, HasDefault)): PrivateScope, Public, Static, HideBySig
+    TryParse(ReadOnlySpan`1, Double&(Out), Int32&(Out), Char(Optional, HasDefault)): PrivateScope, Public, Static, HideBySig
+    TryParse(ReadOnlySpan`1, Guid&(Out), Int32&(Out), Char(Optional, HasDefault)): PrivateScope, Public, Static, HideBySig
+    TryParse(ReadOnlySpan`1, SByte&(Out), Int32&(Out), Char(Optional, HasDefault)): PrivateScope, Public, Static, HideBySig
+    TryParse(ReadOnlySpan`1, Int16&(Out), Int32&(Out), Char(Optional, HasDefault)): PrivateScope, Public, Static, HideBySig
+    TryParse(ReadOnlySpan`1, Int32&(Out), Int32&(Out), Char(Optional, HasDefault)): PrivateScope, Public, Static, HideBySig
+    TryParse(ReadOnlySpan`1, Int64&(Out), Int32&(Out), Char(Optional, HasDefault)): PrivateScope, Public, Static, HideBySig
+    TryParse(ReadOnlySpan`1, Byte&(Out), Int32&(Out), Char(Optional, HasDefault)): PrivateScope, Public, Static, HideBySig
+    TryParse(ReadOnlySpan`1, UInt16&(Out), Int32&(Out), Char(Optional, HasDefault)): PrivateScope, Public, Static, HideBySig
+    TryParse(ReadOnlySpan`1, UInt32&(Out), Int32&(Out), Char(Optional, HasDefault)): PrivateScope, Public, Static, HideBySig
+    TryParse(ReadOnlySpan`1, UInt64&(Out), Int32&(Out), Char(Optional, HasDefault)): PrivateScope, Public, Static, HideBySig
+    TryParse(ReadOnlySpan`1, TimeSpan&(Out), Int32&(Out), Char(Optional, HasDefault)): PrivateScope, Public, Static, HideBySig
+Class System.Buffers.Binary.BinaryPrimitives: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Methods:
+    ReverseEndianness(SByte): PrivateScope, Public, Static, HideBySig
+    ReverseEndianness(Int16): PrivateScope, Public, Static, HideBySig
+    ReverseEndianness(Int32): PrivateScope, Public, Static, HideBySig
+    ReverseEndianness(Int64): PrivateScope, Public, Static, HideBySig
+    ReverseEndianness(Byte): PrivateScope, Public, Static, HideBySig
+    ReverseEndianness(UInt16): PrivateScope, Public, Static, HideBySig
+    ReverseEndianness(UInt32): PrivateScope, Public, Static, HideBySig
+    ReverseEndianness(UInt64): PrivateScope, Public, Static, HideBySig
+    ReadInt16BigEndian(ReadOnlySpan`1): PrivateScope, Public, Static, HideBySig
+    ReadInt32BigEndian(ReadOnlySpan`1): PrivateScope, Public, Static, HideBySig
+    ReadInt64BigEndian(ReadOnlySpan`1): PrivateScope, Public, Static, HideBySig
+    ReadUInt16BigEndian(ReadOnlySpan`1): PrivateScope, Public, Static, HideBySig
+    ReadUInt32BigEndian(ReadOnlySpan`1): PrivateScope, Public, Static, HideBySig
+    ReadUInt64BigEndian(ReadOnlySpan`1): PrivateScope, Public, Static, HideBySig
+    TryReadInt16BigEndian(ReadOnlySpan`1, Int16&(Out)): PrivateScope, Public, Static, HideBySig
+    TryReadInt32BigEndian(ReadOnlySpan`1, Int32&(Out)): PrivateScope, Public, Static, HideBySig
+    TryReadInt64BigEndian(ReadOnlySpan`1, Int64&(Out)): PrivateScope, Public, Static, HideBySig
+    TryReadUInt16BigEndian(ReadOnlySpan`1, UInt16&(Out)): PrivateScope, Public, Static, HideBySig
+    TryReadUInt32BigEndian(ReadOnlySpan`1, UInt32&(Out)): PrivateScope, Public, Static, HideBySig
+    TryReadUInt64BigEndian(ReadOnlySpan`1, UInt64&(Out)): PrivateScope, Public, Static, HideBySig
+    ReadInt16LittleEndian(ReadOnlySpan`1): PrivateScope, Public, Static, HideBySig
+    ReadInt32LittleEndian(ReadOnlySpan`1): PrivateScope, Public, Static, HideBySig
+    ReadInt64LittleEndian(ReadOnlySpan`1): PrivateScope, Public, Static, HideBySig
+    ReadUInt16LittleEndian(ReadOnlySpan`1): PrivateScope, Public, Static, HideBySig
+    ReadUInt32LittleEndian(ReadOnlySpan`1): PrivateScope, Public, Static, HideBySig
+    ReadUInt64LittleEndian(ReadOnlySpan`1): PrivateScope, Public, Static, HideBySig
+    TryReadInt16LittleEndian(ReadOnlySpan`1, Int16&(Out)): PrivateScope, Public, Static, HideBySig
+    TryReadInt32LittleEndian(ReadOnlySpan`1, Int32&(Out)): PrivateScope, Public, Static, HideBySig
+    TryReadInt64LittleEndian(ReadOnlySpan`1, Int64&(Out)): PrivateScope, Public, Static, HideBySig
+    TryReadUInt16LittleEndian(ReadOnlySpan`1, UInt16&(Out)): PrivateScope, Public, Static, HideBySig
+    TryReadUInt32LittleEndian(ReadOnlySpan`1, UInt32&(Out)): PrivateScope, Public, Static, HideBySig
+    TryReadUInt64LittleEndian(ReadOnlySpan`1, UInt64&(Out)): PrivateScope, Public, Static, HideBySig
+    WriteInt16BigEndian(Span`1, Int16): PrivateScope, Public, Static, HideBySig
+    WriteInt32BigEndian(Span`1, Int32): PrivateScope, Public, Static, HideBySig
+    WriteInt64BigEndian(Span`1, Int64): PrivateScope, Public, Static, HideBySig
+    WriteUInt16BigEndian(Span`1, UInt16): PrivateScope, Public, Static, HideBySig
+    WriteUInt32BigEndian(Span`1, UInt32): PrivateScope, Public, Static, HideBySig
+    WriteUInt64BigEndian(Span`1, UInt64): PrivateScope, Public, Static, HideBySig
+    TryWriteInt16BigEndian(Span`1, Int16): PrivateScope, Public, Static, HideBySig
+    TryWriteInt32BigEndian(Span`1, Int32): PrivateScope, Public, Static, HideBySig
+    TryWriteInt64BigEndian(Span`1, Int64): PrivateScope, Public, Static, HideBySig
+    TryWriteUInt16BigEndian(Span`1, UInt16): PrivateScope, Public, Static, HideBySig
+    TryWriteUInt32BigEndian(Span`1, UInt32): PrivateScope, Public, Static, HideBySig
+    TryWriteUInt64BigEndian(Span`1, UInt64): PrivateScope, Public, Static, HideBySig
+    WriteInt16LittleEndian(Span`1, Int16): PrivateScope, Public, Static, HideBySig
+    WriteInt32LittleEndian(Span`1, Int32): PrivateScope, Public, Static, HideBySig
+    WriteInt64LittleEndian(Span`1, Int64): PrivateScope, Public, Static, HideBySig
+    WriteUInt16LittleEndian(Span`1, UInt16): PrivateScope, Public, Static, HideBySig
+    WriteUInt32LittleEndian(Span`1, UInt32): PrivateScope, Public, Static, HideBySig
+    WriteUInt64LittleEndian(Span`1, UInt64): PrivateScope, Public, Static, HideBySig
+    TryWriteInt16LittleEndian(Span`1, Int16): PrivateScope, Public, Static, HideBySig
+    TryWriteInt32LittleEndian(Span`1, Int32): PrivateScope, Public, Static, HideBySig
+    TryWriteInt64LittleEndian(Span`1, Int64): PrivateScope, Public, Static, HideBySig
+    TryWriteUInt16LittleEndian(Span`1, UInt16): PrivateScope, Public, Static, HideBySig
+    TryWriteUInt32LittleEndian(Span`1, UInt32): PrivateScope, Public, Static, HideBySig
+    TryWriteUInt64LittleEndian(Span`1, UInt64): PrivateScope, Public, Static, HideBySig
+Struct System.ReadOnlySpan`1+Enumerator[T]: AutoLayout, AnsiClass, Class, NestedPublic, SequentialLayout, Sealed, BeforeFieldInit (Obsolete)
+  Type parameter: T
+  :System.ValueType
+  Properties:
+    T& Current 'get ' InAttribute : 
+  Methods:
+    MoveNext(): PrivateScope, Public, HideBySig
+    get_Current(): PrivateScope, Public, HideBySig, SpecialName
+Struct System.Span`1+Enumerator[T]: AutoLayout, AnsiClass, Class, NestedPublic, SequentialLayout, Sealed, BeforeFieldInit (Obsolete)
+  Type parameter: T
+  :System.ValueType
+  Properties:
+    T& Current 'get ' : 
+  Methods:
+    MoveNext(): PrivateScope, Public, HideBySig
+    get_Current(): PrivateScope, Public, HideBySig, SpecialName
+Struct System.Buffers.ReadOnlySequence`1+Enumerator[T]: AutoLayout, AnsiClass, Class, NestedPublic, SequentialLayout, Sealed, BeforeFieldInit
+  Type parameter: T
+  :System.ValueType
+    Void .ctor(System.Buffers.ReadOnlySequence`1[T] ByRef): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.ReadOnlyMemory`1[T] Current 'get ' : 
+  Methods:
+    get_Current(): PrivateScope, Public, HideBySig, SpecialName
+    MoveNext(): PrivateScope, Public, HideBySig

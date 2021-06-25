@@ -1,0 +1,178 @@
+  Microsoft.Extensions.DependencyInjection.Abstractions.Resources.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly Microsoft.Extensions.DependencyInjection.Abstractions, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60: 
+	hash=SHA1, flags=PublicKey
+Assembly netstandard, Version=2.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51: 
+	hash=None, flags=None
+Class Microsoft.Extensions.Internal.ParameterDefaultValue: AutoLayout, AnsiClass, Class, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    TryGetDefaultValue(ParameterInfo, Object&(Out)): PrivateScope, Public, Static, HideBySig
+Interface Microsoft.Extensions.DependencyInjection.IServiceCollection: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Interfaces:
+    System.Collections.Generic.IList`1[Microsoft.Extensions.DependencyInjection.ServiceDescriptor]
+    System.Collections.Generic.ICollection`1[Microsoft.Extensions.DependencyInjection.ServiceDescriptor]
+    System.Collections.Generic.IEnumerable`1[Microsoft.Extensions.DependencyInjection.ServiceDescriptor]
+    System.Collections.IEnumerable
+Interface Microsoft.Extensions.DependencyInjection.IServiceProviderFactory`1[TContainerBuilder]: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Type parameter: TContainerBuilder
+  Methods:
+    CreateBuilder(IServiceCollection): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    CreateServiceProvider(TContainerBuilder): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Interface Microsoft.Extensions.DependencyInjection.IServiceScope: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Interfaces:
+    System.IDisposable
+  Properties:
+    System.IServiceProvider ServiceProvider 'get ' : 
+  Methods:
+    get_ServiceProvider(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+Interface Microsoft.Extensions.DependencyInjection.IServiceScopeFactory: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Methods:
+    CreateScope(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Interface Microsoft.Extensions.DependencyInjection.ISupportRequiredService: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Methods:
+    GetRequiredService(Type): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Class Microsoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Methods:
+    AddTransient(IServiceCollection, Type, Type): PrivateScope, Public, Static, HideBySig
+    AddTransient(IServiceCollection, Type, Func`2): PrivateScope, Public, Static, HideBySig
+    AddTransient(IServiceCollection): PrivateScope, Public, Static, HideBySig
+    AddTransient(IServiceCollection, Type): PrivateScope, Public, Static, HideBySig
+    AddTransient(IServiceCollection): PrivateScope, Public, Static, HideBySig
+    AddTransient(IServiceCollection, Func`2): PrivateScope, Public, Static, HideBySig
+    AddTransient(IServiceCollection, Func`2): PrivateScope, Public, Static, HideBySig
+    AddScoped(IServiceCollection, Type, Type): PrivateScope, Public, Static, HideBySig
+    AddScoped(IServiceCollection, Type, Func`2): PrivateScope, Public, Static, HideBySig
+    AddScoped(IServiceCollection): PrivateScope, Public, Static, HideBySig
+    AddScoped(IServiceCollection, Type): PrivateScope, Public, Static, HideBySig
+    AddScoped(IServiceCollection): PrivateScope, Public, Static, HideBySig
+    AddScoped(IServiceCollection, Func`2): PrivateScope, Public, Static, HideBySig
+    AddScoped(IServiceCollection, Func`2): PrivateScope, Public, Static, HideBySig
+    AddSingleton(IServiceCollection, Type, Type): PrivateScope, Public, Static, HideBySig
+    AddSingleton(IServiceCollection, Type, Func`2): PrivateScope, Public, Static, HideBySig
+    AddSingleton(IServiceCollection): PrivateScope, Public, Static, HideBySig
+    AddSingleton(IServiceCollection, Type): PrivateScope, Public, Static, HideBySig
+    AddSingleton(IServiceCollection): PrivateScope, Public, Static, HideBySig
+    AddSingleton(IServiceCollection, Func`2): PrivateScope, Public, Static, HideBySig
+    AddSingleton(IServiceCollection, Func`2): PrivateScope, Public, Static, HideBySig
+    AddSingleton(IServiceCollection, Type, Object): PrivateScope, Public, Static, HideBySig
+    AddSingleton(IServiceCollection, TService): PrivateScope, Public, Static, HideBySig
+Class Microsoft.Extensions.DependencyInjection.ServiceDescriptor: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.Type, System.Type, Microsoft.Extensions.DependencyInjection.ServiceLifetime): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Type, System.Object): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Type, System.Func`2[System.IServiceProvider,System.Object], Microsoft.Extensions.DependencyInjection.ServiceLifetime): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.Extensions.DependencyInjection.ServiceLifetime Lifetime 'get ' : 
+    System.Type ServiceType 'get ' : 
+    System.Type ImplementationType 'get ' : 
+    System.Object ImplementationInstance 'get ' : 
+    System.Func`2[System.IServiceProvider,System.Object] ImplementationFactory 'get ' : 
+  Methods:
+    get_Lifetime(): PrivateScope, Public, HideBySig, SpecialName
+    get_ServiceType(): PrivateScope, Public, HideBySig, SpecialName
+    get_ImplementationType(): PrivateScope, Public, HideBySig, SpecialName
+    get_ImplementationInstance(): PrivateScope, Public, HideBySig, SpecialName
+    get_ImplementationFactory(): PrivateScope, Public, HideBySig, SpecialName
+    GetImplementationType(): PrivateScope, Assembly, HideBySig
+    Transient(): PrivateScope, Public, Static, HideBySig
+    Transient(Type, Type): PrivateScope, Public, Static, HideBySig
+    Transient(Func`2): PrivateScope, Public, Static, HideBySig
+    Transient(Func`2): PrivateScope, Public, Static, HideBySig
+    Transient(Type, Func`2): PrivateScope, Public, Static, HideBySig
+    Scoped(): PrivateScope, Public, Static, HideBySig
+    Scoped(Type, Type): PrivateScope, Public, Static, HideBySig
+    Scoped(Func`2): PrivateScope, Public, Static, HideBySig
+    Scoped(Func`2): PrivateScope, Public, Static, HideBySig
+    Scoped(Type, Func`2): PrivateScope, Public, Static, HideBySig
+    Singleton(): PrivateScope, Public, Static, HideBySig
+    Singleton(Type, Type): PrivateScope, Public, Static, HideBySig
+    Singleton(Func`2): PrivateScope, Public, Static, HideBySig
+    Singleton(Func`2): PrivateScope, Public, Static, HideBySig
+    Singleton(Type, Func`2): PrivateScope, Public, Static, HideBySig
+    Singleton(TService): PrivateScope, Public, Static, HideBySig
+    Singleton(Type, Object): PrivateScope, Public, Static, HideBySig
+    Describe(Type, Type, ServiceLifetime): PrivateScope, Public, Static, HideBySig
+    Describe(Type, Func`2, ServiceLifetime): PrivateScope, Public, Static, HideBySig
+Struct Microsoft.Extensions.DependencyInjection.ServiceLifetime: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    Microsoft.Extensions.DependencyInjection.ServiceLifetime Singleton = 0 : Public, Static, Literal, HasDefault
+    Microsoft.Extensions.DependencyInjection.ServiceLifetime Scoped = 1 : Public, Static, Literal, HasDefault
+    Microsoft.Extensions.DependencyInjection.ServiceLifetime Transient = 2 : Public, Static, Literal, HasDefault
+Class Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Methods:
+    GetService(IServiceProvider): PrivateScope, Public, Static, HideBySig
+    GetRequiredService(IServiceProvider, Type): PrivateScope, Public, Static, HideBySig
+    GetRequiredService(IServiceProvider): PrivateScope, Public, Static, HideBySig
+    GetServices(IServiceProvider): PrivateScope, Public, Static, HideBySig
+    GetServices(IServiceProvider, Type): PrivateScope, Public, Static, HideBySig
+    CreateScope(IServiceProvider): PrivateScope, Public, Static, HideBySig
+Class Microsoft.Extensions.DependencyInjection.ActivatorUtilities: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Methods:
+    CreateInstance(IServiceProvider, Type, Object[]): PrivateScope, Public, Static, HideBySig
+    CreateFactory(Type, Type[]): PrivateScope, Public, Static, HideBySig
+    CreateInstance(IServiceProvider, Object[]): PrivateScope, Public, Static, HideBySig
+    GetServiceOrCreateInstance(IServiceProvider): PrivateScope, Public, Static, HideBySig
+    GetServiceOrCreateInstance(IServiceProvider, Type): PrivateScope, Public, Static, HideBySig
+Class Microsoft.Extensions.DependencyInjection.ActivatorUtilitiesConstructorAttribute: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Attribute
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Microsoft.Extensions.DependencyInjection.ObjectFactory: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(IServiceProvider, Object[]): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(IServiceProvider, Object[], AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class Microsoft.Extensions.DependencyInjection.Abstractions.Resources: AutoLayout, AnsiClass, Class, Abstract, Sealed, BeforeFieldInit
+  Properties:
+    System.String AmbiguousConstructorMatch 'get ' : 
+    System.String CannotLocateImplementation 'get ' : 
+    System.String CannotResolveService 'get ' : 
+    System.String NoConstructorMatch 'get ' : 
+    System.String NoServiceRegistered 'get ' : 
+    System.String TryAddIndistinguishableTypeToEnumerable 'get ' : 
+  Methods:
+    get_AmbiguousConstructorMatch(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    FormatAmbiguousConstructorMatch(Object): PrivateScope, Assembly, Static, HideBySig
+    get_CannotLocateImplementation(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    FormatCannotLocateImplementation(Object, Object): PrivateScope, Assembly, Static, HideBySig
+    get_CannotResolveService(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    FormatCannotResolveService(Object, Object): PrivateScope, Assembly, Static, HideBySig
+    get_NoConstructorMatch(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    FormatNoConstructorMatch(Object): PrivateScope, Assembly, Static, HideBySig
+    get_NoServiceRegistered(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    FormatNoServiceRegistered(Object): PrivateScope, Assembly, Static, HideBySig
+    get_TryAddIndistinguishableTypeToEnumerable(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    FormatTryAddIndistinguishableTypeToEnumerable(Object, Object): PrivateScope, Assembly, Static, HideBySig
+Class Microsoft.Extensions.DependencyInjection.Extensions.ServiceCollectionDescriptorExtensions: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Methods:
+    Add(IServiceCollection, ServiceDescriptor): PrivateScope, Public, Static, HideBySig
+    Add(IServiceCollection, IEnumerable`1): PrivateScope, Public, Static, HideBySig
+    TryAdd(IServiceCollection, ServiceDescriptor): PrivateScope, Public, Static, HideBySig
+    TryAdd(IServiceCollection, IEnumerable`1): PrivateScope, Public, Static, HideBySig
+    TryAddTransient(IServiceCollection, Type): PrivateScope, Public, Static, HideBySig
+    TryAddTransient(IServiceCollection, Type, Type): PrivateScope, Public, Static, HideBySig
+    TryAddTransient(IServiceCollection, Type, Func`2): PrivateScope, Public, Static, HideBySig
+    TryAddTransient(IServiceCollection): PrivateScope, Public, Static, HideBySig
+    TryAddTransient(IServiceCollection): PrivateScope, Public, Static, HideBySig
+    TryAddTransient(IServiceCollection, Func`2): PrivateScope, Public, Static, HideBySig
+    TryAddScoped(IServiceCollection, Type): PrivateScope, Public, Static, HideBySig
+    TryAddScoped(IServiceCollection, Type, Type): PrivateScope, Public, Static, HideBySig
+    TryAddScoped(IServiceCollection, Type, Func`2): PrivateScope, Public, Static, HideBySig
+    TryAddScoped(IServiceCollection): PrivateScope, Public, Static, HideBySig
+    TryAddScoped(IServiceCollection): PrivateScope, Public, Static, HideBySig
+    TryAddScoped(IServiceCollection, Func`2): PrivateScope, Public, Static, HideBySig
+    TryAddSingleton(IServiceCollection, Type): PrivateScope, Public, Static, HideBySig
+    TryAddSingleton(IServiceCollection, Type, Type): PrivateScope, Public, Static, HideBySig
+    TryAddSingleton(IServiceCollection, Type, Func`2): PrivateScope, Public, Static, HideBySig
+    TryAddSingleton(IServiceCollection): PrivateScope, Public, Static, HideBySig
+    TryAddSingleton(IServiceCollection): PrivateScope, Public, Static, HideBySig
+    TryAddSingleton(IServiceCollection, TService): PrivateScope, Public, Static, HideBySig
+    TryAddSingleton(IServiceCollection, Func`2): PrivateScope, Public, Static, HideBySig
+    TryAddEnumerable(IServiceCollection, ServiceDescriptor): PrivateScope, Public, Static, HideBySig
+    TryAddEnumerable(IServiceCollection, IEnumerable`1): PrivateScope, Public, Static, HideBySig
+    Replace(IServiceCollection, ServiceDescriptor): PrivateScope, Public, Static, HideBySig
+    RemoveAll(IServiceCollection): PrivateScope, Public, Static, HideBySig
+    RemoveAll(IServiceCollection, Type): PrivateScope, Public, Static, HideBySig
